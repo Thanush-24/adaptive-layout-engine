@@ -100,9 +100,12 @@ export function place(
     // text / shape
     const style = resolveTextStyle(el)
     const isCta = el.role === 'cta'
+    // Overlay text carries a per-line scrim with a little horizontal padding;
+    // reserve room for it so a line that just fits doesn't wrap once padded.
+    const scrimPad = region.overlay && !isCta ? Math.min(box.w * 0.04, 14) : 0
     const textBox = isCta
       ? inset(box, { top: CTA_PAD_Y, bottom: CTA_PAD_Y, left: CTA_PAD_X, right: CTA_PAD_X })
-      : box
+      : inset(box, { top: 0, bottom: 0, left: scrimPad, right: scrimPad })
 
     const fit = fitText({
       text: el.content,
@@ -121,13 +124,18 @@ export function place(
             chooseForeground(localL, el.role === 'headline' ? 3 : 4.5, region.overlay),
           )
 
-    const textW = Math.min(textBox.w, fit.usedW)
-    const textH = Math.min(textBox.h, fit.usedH)
+    // Position using the measured text size, but give the box a small slack
+    // margin over it: measured advance widths run a hair under a real browser's
+    // text layout, and `overflow: hidden` on the render must not shave a glyph.
+    const measuredW = Math.min(textBox.w, fit.usedW)
+    const measuredH = Math.min(textBox.h, fit.usedH)
+    const boxW2 = Math.min(textBox.w, measuredW + fit.fontPx * 0.6)
+    const boxH2 = Math.min(textBox.h, measuredH + fit.fontPx * 0.35)
     const align = region.align ?? 'start'
     const inner = alignIn(
       textBox,
-      textW,
-      textH,
+      boxW2,
+      boxH2,
       align,
       region.overlay ? 'center' : el.role === 'legal' ? 'end' : 'center',
     )

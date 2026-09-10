@@ -32,8 +32,10 @@ function elementHtml(p: Placement, brandColor: string): string {
   const c = p.colors
   const t = p.text
   if (!t) return ''
-  const scrim = c?.scrim
-    ? `<div style="position:absolute;inset:0;background:${c.scrim.color};opacity:${c.scrim.opacity}"></div>`
+  const scrimBg = c?.scrim
+    ? `${c.scrim.color}${Math.round(c.scrim.opacity * 255)
+        .toString(16)
+        .padStart(2, '0')}`
     : ''
 
   if (p.role === 'cta') {
@@ -46,11 +48,15 @@ function elementHtml(p: Placement, brandColor: string): string {
     </div>`
   }
 
-  const align = 'left'
-  const lines = t.lines.map((l) => esc(l)).join('<br/>')
+  const pad = scrimBg ? Math.max(2, t.fontPx * 0.12) : 0
+  const spanStyle = scrimBg
+    ? `background:${scrimBg};padding:0 ${pad}px;box-shadow:0 0 0 2px ${scrimBg};-webkit-box-decoration-break:clone;box-decoration-break:clone`
+    : ''
+  const lines = t.lines
+    .map((l) => `<div style="display:table"><span style="${spanStyle}">${esc(l)}</span></div>`)
+    .join('')
   return `<div style="${base}z-index:${p.z};overflow:hidden">
-    ${scrim}
-    <div style="position:relative;color:${c?.fg ?? '#111'};font:${weight(t.weight)} ${t.fontPx}px/${t.lineHeight} ${FONT};letter-spacing:${t.letterSpacing}em;text-transform:${t.transform};text-align:${align}">${lines}</div>
+    <div style="color:${c?.fg ?? '#111'};font:${weight(t.weight)} ${t.fontPx}px/${t.lineHeight} ${FONT};letter-spacing:${t.letterSpacing}em;text-transform:${t.transform}">${lines}</div>
   </div>`
 }
 

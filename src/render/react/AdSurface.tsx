@@ -225,21 +225,19 @@ function PlacementEl({ p, brandColor }: { p: Placement; brandColor: string }) {
     )
   }
 
+  // A scrim hugs the text (per line), not the whole region, so it never shows
+  // as an empty slab next to short copy.
+  const scrimBg = c?.scrim
+    ? `${c.scrim.color}${Math.round(c.scrim.opacity * 255)
+        .toString(16)
+        .padStart(2, '0')}`
+    : undefined
+  const pad = scrimBg ? Math.max(2, t.fontPx * 0.12) : 0
+
   return (
     <div style={{ ...base, overflow: 'hidden' }}>
-      {c?.scrim && (
-        <div
-          style={{
-            position: 'absolute',
-            inset: 0,
-            background: c.scrim.color,
-            opacity: c.scrim.opacity,
-          }}
-        />
-      )}
       <div
         style={{
-          position: 'relative',
           color: c?.fg ?? '#111',
           fontFamily: FONT,
           fontWeight: WEIGHT[t.weight],
@@ -251,7 +249,23 @@ function PlacementEl({ p, brandColor }: { p: Placement; brandColor: string }) {
         }}
       >
         {t.lines.map((l, i) => (
-          <div key={i}>{l}</div>
+          <div key={i} style={{ display: 'table' }}>
+            <span
+              style={
+                scrimBg
+                  ? {
+                      background: scrimBg,
+                      padding: `0 ${pad}px`,
+                      boxShadow: `0 0 0 2px ${scrimBg}`,
+                      boxDecorationBreak: 'clone',
+                      WebkitBoxDecorationBreak: 'clone',
+                    }
+                  : undefined
+              }
+            >
+              {l}
+            </span>
+          </div>
         ))}
       </div>
     </div>

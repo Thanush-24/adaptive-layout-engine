@@ -38,3 +38,4 @@ coverage
 /playwright/.cache/
 /ads/
 public/_preview/
+_shot.mjs

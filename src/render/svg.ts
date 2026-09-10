@@ -4,10 +4,12 @@
  * file exports. Reads only `ResolvedLayout`.
  */
 import type { Placement, ResolvedLayout } from '../engine/types'
+import { measureEm } from '../engine/text/metrics'
 
 const esc = (s: string): string => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`)
 
 const FONT = 'system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif'
+const FAMILY_KEY = 'system'
 const WEIGHT: Record<string, number> = {
   regular: 400,
   medium: 500,
@@ -88,18 +90,32 @@ function renderPlacement(
   defs.push(
     `<clipPath id="${clipId}"><rect x="${r.x}" y="${r.y}" width="${r.w}" height="${r.h}"/></clipPath>`,
   )
-  const scrim = c?.scrim
-    ? `<rect x="${r.x}" y="${r.y}" width="${r.w}" height="${r.h}" fill="${c.scrim.color}" opacity="${c.scrim.opacity}"/>`
-    : ''
   const lh = t.fontPx * t.lineHeight
+  const em = (s: string) =>
+    measureEm(s, { family: FAMILY_KEY, weight: t.weight, letterSpacing: t.letterSpacing })
+  // Scrim hugs each line, not the whole region.
+  const pad = t.fontPx * 0.12
+  const scrim = c?.scrim
+    ? t.lines
+        .map((l, i) => {
+          const w = em(l) * t.fontPx + pad * 2
+          return `<rect x="${round(r.x - pad + 1)}" y="${round(r.y + i * lh)}" width="${round(w)}" height="${round(lh)}" fill="${c.scrim!.color}" opacity="${c.scrim!.opacity}"/>`
+        })
+        .join('\n  ')
+    : ''
   const lines = t.lines
-    .map((l, i) => `<tspan x="${r.x + 1}" y="${r.y + t.fontPx + i * lh}">${esc(l)}</tspan>`)
+    .map(
+      (l, i) =>
+        `<tspan x="${round(r.x + 1)}" y="${round(r.y + t.fontPx + i * lh)}">${esc(l)}</tspan>`,
+    )
     .join('')
   return `<g clip-path="url(#${clipId})">
   ${scrim}
   <text fill="${c?.fg ?? '#111'}" font-size="${t.fontPx}" font-weight="${WEIGHT[t.weight]}" letter-spacing="${t.letterSpacing}em"${t.transform === 'uppercase' ? ' style="text-transform:uppercase"' : ''}>${lines}</text>
 </g>`
 }
+
+const round = (v: number) => Math.round(v * 100) / 100
 
 /** Draw an image so its normalized `crop` region fills `r`, clipped to `r`. */
 function coverImage(

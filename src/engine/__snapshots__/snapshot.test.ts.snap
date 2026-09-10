@@ -2,241 +2,241 @@
 
 exports[`resolved layout matrix > matches the golden fingerprint 1`] = `
 "retail-sale    leaderboard      strip/logo-message-cta score=0.89 drop=2 warn=2
-    logo@11,15 109x40 40px/1L | headline@140,8 216x54 25px/2L | cta@558,16 157x39 19px/1L | legal@7,70 180x13 11px/1L
-retail-sale    mobile-banner    strip/logo-message-cta score=0.80 drop=4 warn=6
-    logo@8,19 32x12 12px/1L | headline@58,7 147x37 17px/2L | cta@228,7 85x36 12px/2L
+    logo@10,10 112x50 40px/1L | headline@140,8 231x54 25px/2L | cta@553,12 166x46 19px/1L | legal@7,69 187x14 11px/1L
+retail-sale    mobile-banner    strip/logo-message-cta score=0.79 drop=4 warn=6
+    logo@8,17 32x16 12px/1L | headline@58,6 152x38 17px/2L | cta@227,7 86x36 12px/2L
 retail-sale    large-mobile     strip/logo-message-cta score=0.83 drop=3 warn=4
-    logo@11,31 46x17 17px/1L | headline@75,8 111x62 19px/3L | cta@245,11 64x56 12px/3L | legal@7,77 213x16 13px/1L
+    logo@10,28 47x23 17px/1L | headline@75,8 122x62 19px/3L | cta@243,9 68x60 12px/3L | legal@7,77 221x16 13px/1L
 retail-sale    mpu              stack/centered score=0.97 drop=0 warn=1
-    logo@123,12 55x20 20px/1L | badge@97,52 107x14 14px/1L | headline@72,85 156x39 18px/2L | subhead@19,145 262x14 11px/1L | cta@75,181 151x38 18px/1L | legal@9,235 164x12 10px/1L
+    logo@117,12 67x20 20px/1L | badge@93,52 115x14 14px/1L | headline@67,84 167x40 18px/2L | subhead@16,143 268x18 11px/1L | cta@69,181 161x38 18px/1L | legal@9,235 170x12 10px/1L
 retail-sale    half-page        stack/centered score=0.93 drop=0 warn=0
-    logo@123,14 55x20 20px/1L | badge@97,54 107x14 14px/1L | headline@16,147 268x149 46px/3L | subhead@21,387 259x105 28px/3L | cta@75,523 151x38 18px/1L | legal@11,577 164x12 10px/1L
+    logo@117,14 67x20 20px/1L | badge@93,54 115x14 14px/1L | headline@12,139 276x165 46px/3L | subhead@14,382 272x115 28px/3L | cta@69,523 161x38 18px/1L | legal@11,577 170x12 10px/1L
 retail-sale    billboard        strip/logo-message-cta score=0.89 drop=2 warn=2
-    logo@15,93 109x40 40px/1L | headline@144,43 563x140 65px/2L | cta@746,90 208x47 27px/1L | legal@11,221 246x18 15px/1L
+    logo@14,86 112x54 40px/1L | headline@144,31 582x163 65px/2L | cta@743,85 214x56 27px/1L | legal@11,221 255x18 15px/1L
 retail-sale    skyscraper       poster/centered score=0.91 drop=1 warn=5
-    logo@50,81 60x22 22px/1L | badge@23,128 114x15 15px/1L | headline@19,226 122x68 21px/3L | subhead@21,395 118x45 12px/3L | cta@21,485 119x33 13px/1L
-retail-sale    story            stack/centered score=0.90 drop=0 warn=0
-    logo@485,100 109x40 40px/1L | badge@456,164 167x22 22px/1L | headline@155,445 770x428 132px/3L | subhead@64,1325 952x50 40px/1L | cta@382,1594 316x64 44px/1L | legal@49,1677 295x22 18px/1L
-retail-sale    feed-square      stack/centered score=0.96 drop=0 warn=0
-    logo@485,68 109x40 40px/1L | badge@456,132 167x22 22px/1L | headline@155,196 770x428 132px/3L | subhead@291,725 497x100 40px/2L | cta@382,910 316x64 44px/1L | legal@65,993 295x22 18px/1L
-retail-sale    feed-portrait    stack/centered score=0.93 drop=0 warn=0
-    logo@485,76 109x40 40px/1L | badge@456,140 167x22 22px/1L | headline@155,288 770x428 132px/3L | subhead@291,944 497x100 40px/2L | cta@382,1172 316x64 44px/1L | legal@73,1255 295x22 18px/1L
+    logo@43,81 73x22 22px/1L | badge@24,127 112x16 14px/1L | headline@22,226 116x68 19px/3L | subhead@24,395 112x45 11px/3L | cta@18,483 124x38 13px/1L
+retail-sale    story            stack/centered score=0.91 drop=0 warn=0
+    logo@473,100 133x40 40px/1L | badge@450,160 181x30 22px/1L | headline@115,422 849x474 132px/3L | subhead@52,1318 976x64 40px/1L | cta@369,1591 343x70 44px/1L | legal@49,1677 306x22 18px/1L
+retail-sale    feed-square      stack/centered score=0.97 drop=0 warn=0
+    logo@473,68 133x40 40px/1L | badge@450,128 181x30 22px/1L | headline@115,176 849x467 132px/3L | subhead@279,718 521x114 40px/2L | cta@369,907 343x70 44px/1L | legal@65,993 306x22 18px/1L
+retail-sale    feed-portrait    stack/centered score=0.94 drop=0 warn=0
+    logo@473,76 133x40 40px/1L | badge@450,136 181x30 22px/1L | headline@115,265 849x474 132px/3L | subhead@279,937 521x114 40px/2L | cta@369,1169 343x70 44px/1L | legal@73,1255 306x22 18px/1L
 retail-sale    feed-landscape   strip/overlay-lower-third score=0.91 drop=3 warn=4
-    logo@52,56 109x40 40px/1L | headline@50,217 1073x268 124px/2L | cta@51,519 278x58 38px/1L
+    logo@52,52 133x48 40px/1L | headline@64,199 1072x303 121px/2L | cta@51,519 301x58 38px/1L
 retail-sale    ctv-1080         strip/overlay-lower-third score=0.88 drop=3 warn=4
-    logo@100,104 109x40 40px/1L | headline@98,484 1143x285 132px/2L | cta@99,923 278x58 38px/1L
-retail-sale    ctv-720          strip/overlay-lower-third score=0.91 drop=3 warn=4
-    logo@68,72 109x40 40px/1L | headline@66,266 1117x279 129px/2L | cta@67,595 278x58 38px/1L
+    logo@100,100 133x48 40px/1L | headline@112,461 1222x331 132px/2L | cta@99,923 301x58 38px/1L
+retail-sale    ctv-720          strip/overlay-lower-third score=0.92 drop=3 warn=4
+    logo@68,68 133x48 40px/1L | headline@80,247 1120x316 126px/2L | cta@67,595 301x58 38px/1L
 retail-sale    dooh-portrait    stack/centered score=0.83 drop=0 warn=1
-    logo@485,84 109x40 40px/1L | badge@456,148 167x22 22px/1L | headline@155,481 770x428 132px/3L | subhead@291,1414 497x100 40px/2L | cta@382,1734 316x64 44px/1L | legal@81,1817 295x22 18px/1L
+    logo@473,84 133x40 40px/1L | badge@450,144 181x30 22px/1L | headline@115,458 849x474 132px/3L | subhead@279,1407 521x114 40px/2L | cta@369,1731 343x70 44px/1L | legal@81,1817 306x22 18px/1L
 retail-sale    dooh-landscape   strip/overlay-lower-third score=0.88 drop=3 warn=4
-    logo@84,88 109x40 40px/1L | headline@82,488 1143x285 132px/2L | cta@83,939 278x58 38px/1L
-retail-sale    dooh-ultrawide   strip/overlay-lower-third score=0.82 drop=4 warn=4
-    logo@84,88 109x40 40px/1L | headline@82,560 2182x143 132px/1L | cta@83,939 278x58 38px/1L
+    logo@84,84 133x48 40px/1L | headline@96,465 1222x331 132px/2L | cta@83,939 301x58 38px/1L
+retail-sale    dooh-ultrawide   strip/overlay-lower-third score=0.83 drop=4 warn=4
+    logo@84,84 133x48 40px/1L | headline@96,536 2261x189 132px/1L | cta@83,939 301x58 38px/1L
 retail-sale    native           strip/overlay-lower-third score=0.91 drop=3 warn=4
-    logo@28,32 109x40 40px/1L | headline@26,217 1117x279 129px/2L | cta@27,542 278x58 38px/1L
+    logo@28,28 133x48 40px/1L | headline@40,198 1120x316 126px/2L | cta@27,542 301x58 38px/1L
 fintech-card   leaderboard      strip/logo-message-cta score=0.89 drop=2 warn=2
-    logo@13,25 105x21 21px/1L | headline@140,8 270x54 25px/2L | cta@556,14 159x42 22px/1L | legal@7,70 279x13 11px/1L
+    logo@10,21 112x28 21px/1L | headline@140,8 285x54 25px/2L | cta@553,10 166x50 22px/1L | legal@7,69 285x14 11px/1L
 fintech-card   mobile-banner    strip/logo-message-cta score=0.69 drop=3 warn=8
-    logo@8,19 32x12 12px/1L | headline@58,6 130x38 14px/3L | cta@232,7 76x36 12px/2L | legal@4,4 279x13 11px/1L
+    logo@8,17 32x16 12px/1L | headline@58,6 139x38 14px/3L | cta@229,7 83x36 12px/2L | legal@16,4 285x13 11px/1L
 fintech-card   large-mobile     strip/logo-message-cta score=0.81 drop=3 warn=5
-    logo@10,33 47x12 12px/1L | headline@75,15 139x49 15px/3L | cta@247,11 60x56 12px/3L | legal@7,80 279x13 11px/1L
-fintech-card   mpu              hero-overlay/band-bottom score=0.96 drop=2 warn=3
-    logo@12,143 90x18 18px/1L | cta@11,204 137x38 18px/1L | headline@8,13 270x54 25px/2L | legal@8,190 253x12 10px/1L
-fintech-card   half-page        hero-overlay/band-bottom score=0.92 drop=1 warn=2
-    logo@14,339 90x18 18px/1L | headline@12,376 270x94 29px/3L | subhead@14,497 259x24 19px/1L | cta@13,549 137x38 18px/1L | legal@10,535 253x12 10px/1L
+    logo@10,31 47x16 12px/1L | headline@75,12 148x54 15px/3L | cta@244,9 67x60 12px/3L | legal@7,77 285x16 11px/1L
+fintech-card   mpu              hero-overlay/band-bottom score=0.95 drop=2 warn=3
+    logo@23,143 101x18 18px/1L | cta@11,204 148x38 18px/1L | headline@19,11 261x58 23px/2L | legal@19,189 259x13 10px/1L
+fintech-card   half-page        hero-overlay/band-bottom score=0.91 drop=1 warn=2
+    logo@25,339 101x18 18px/1L | headline@23,376 254x93 26px/3L | subhead@25,495 250x29 18px/1L | cta@13,549 148x38 18px/1L | legal@21,534 233x13 9px/1L
 fintech-card   billboard        strip/logo-message-cta score=0.89 drop=2 warn=2
-    logo@17,103 105x21 21px/1L | headline@144,14 567x198 61px/3L | cta@745,88 210x51 31px/1L | legal@11,221 380x18 15px/1L
+    logo@14,99 112x28 21px/1L | headline@144,12 582x202 61px/3L | cta@743,82 214x62 31px/1L | legal@11,221 389x18 15px/1L
 fintech-card   skyscraper       stack/centered score=0.83 drop=0 warn=1
-    logo@30,10 100x20 20px/1L | headline@10,99 139x49 15px/3L | subhead@15,227 131x48 19px/2L | product@16,311 129x191 | cta@12,527 137x38 18px/1L | legal@7,581 125x12 9px/2L
+    logo@24,10 112x20 20px/1L | headline@8,96 144x54 15px/3L | subhead@10,224 140x54 19px/2L | product@16,311 129x191 | cta@9,527 142x38 18px/1L | legal@7,581 131x12 9px/2L
 fintech-card   story            stack/centered score=0.90 drop=0 warn=0
-    logo@440,100 201x40 40px/1L | headline@61,233 957x334 103px/3L | subhead@268,753 545x50 40px/1L | product@78,942 923x604 | cta@399,1594 282x64 44px/1L | legal@49,1677 456x22 18px/1L
-fintech-card   feed-square      hero-overlay/band-center score=0.92 drop=1 warn=6
-    headline@76,344 929x186 86px/2L | subhead@268,584 545x50 40px/1L | cta@399,680 282x64 44px/1L | logo@64,76 201x40 40px/1L | legal@64,1065 279x13 11px/1L
-fintech-card   feed-portrait    stack/centered score=0.90 drop=0 warn=1
-    logo@440,76 201x40 40px/1L | headline@85,148 911x318 98px/3L | subhead@268,555 545x50 40px/1L | product@95,702 891x430 | cta@399,1172 282x64 44px/1L | legal@73,1255 456x22 18px/1L
+    logo@428,100 225x40 40px/1L | headline@50,215 980x370 103px/3L | subhead@256,746 569x64 40px/1L | product@78,942 923x604 | cta@386,1591 309x70 44px/1L | legal@49,1677 467x22 18px/1L
+fintech-card   feed-square      hero-overlay/band-bottom score=0.93 drop=1 warn=6
+    logo@82,601 101x18 18px/1L | headline@80,637 920x184 83px/2L | subhead@82,850 569x64 40px/1L | cta@67,943 309x70 44px/1L | legal@78,1065 285x13 11px/1L
+fintech-card   feed-portrait    stack/centered score=0.91 drop=0 warn=1
+    logo@428,76 225x40 40px/1L | headline@74,134 932x345 98px/3L | subhead@256,548 569x64 40px/1L | product@95,702 891x430 | cta@386,1169 309x70 44px/1L | legal@73,1255 467x22 18px/1L
 fintech-card   feed-landscape   strip/overlay-lower-third score=0.93 drop=2 warn=4
-    logo@52,62 146x29 29px/1L | headline@50,244 1069x214 99px/2L | cta@51,519 249x58 38px/1L | legal@48,504 279x13 11px/1L
-fintech-card   ctv-1080         split/image-left score=0.81 drop=0 warn=4
-    product@133,133 760x814 | logo@952,100 90x18 18px/1L | headline@950,237 846x295 91px/3L | subhead@952,746 545x50 40px/1L | cta@951,914 282x64 44px/1L | legal@96,1065 279x13 11px/1L
-fintech-card   ctv-720          strip/logo-message-cta score=0.83 drop=2 warn=4
-    logo@71,338 105x21 21px/1L | headline@198,215 762x266 82px/3L | cta@1001,323 210x51 31px/1L | legal@65,637 380x18 15px/1L
-fintech-card   dooh-portrait    stack/centered score=0.82 drop=0 warn=1
-    logo@440,84 201x40 40px/1L | headline@94,256 892x311 96px/3L | subhead@268,805 545x50 40px/1L | product@113,1010 854x673 | cta@399,1734 282x64 44px/1L | legal@81,1817 456x22 18px/1L
+    logo@52,56 152x39 29px/1L | headline@64,229 1072x243 97px/2L | cta@51,519 272x58 38px/1L | legal@62,504 285x13 11px/1L
+fintech-card   ctv-1080         split/image-left score=0.82 drop=0 warn=4
+    product@133,133 760x814 | logo@952,100 101x18 18px/1L | headline@950,221 872x327 91px/3L | subhead@952,739 569x64 40px/1L | cta@951,911 309x70 44px/1L | legal@110,1065 285x13 11px/1L
+fintech-card   ctv-720          strip/logo-message-cta score=0.84 drop=2 warn=4
+    logo@68,334 112x28 21px/1L | headline@198,201 784x294 82px/3L | cta@999,317 214x62 31px/1L | legal@65,637 389x18 15px/1L
+fintech-card   dooh-portrait    stack/centered score=0.83 drop=0 warn=1
+    logo@428,84 225x40 40px/1L | headline@82,239 916x345 96px/3L | subhead@256,798 569x64 40px/1L | product@113,1010 854x673 | cta@386,1731 309x70 44px/1L | legal@81,1817 467x22 18px/1L
 fintech-card   dooh-landscape   split/image-left score=0.82 drop=0 warn=4
-    product@118,118 774x845 | logo@952,84 90x18 18px/1L | headline@950,228 865x301 93px/3L | subhead@952,757 545x50 40px/1L | cta@951,930 282x64 44px/1L | legal@80,1065 279x13 11px/1L
-fintech-card   dooh-ultrawide   strip/logo-message-cta score=0.76 drop=3 warn=5
-    logo@87,518 105x21 21px/1L | headline@214,457 2832x143 132px/1L | cta@3545,503 210x51 31px/1L | legal@81,981 380x18 15px/1L
+    product@118,118 774x845 | logo@952,84 101x18 18px/1L | headline@950,212 888x334 93px/3L | subhead@952,750 569x64 40px/1L | cta@951,927 309x70 44px/1L | legal@94,1065 285x13 11px/1L
+fintech-card   dooh-ultrawide   strip/logo-message-cta score=0.77 drop=3 warn=5
+    logo@84,514 112x28 21px/1L | headline@214,434 2911x189 132px/1L | cta@3543,497 214x62 31px/1L | legal@81,981 389x18 15px/1L
 fintech-card   native           strip/overlay-lower-third score=0.93 drop=2 warn=3
-    logo@28,38 146x29 29px/1L | headline@26,244 1123x225 104px/2L | cta@27,542 249x58 38px/1L | legal@24,527 279x13 11px/1L
+    logo@28,32 152x39 29px/1L | headline@40,188 1029x337 104px/3L | cta@27,542 272x58 38px/1L | legal@38,527 285x13 11px/1L
 travel-getaway leaderboard      strip/logo-message-cta score=0.91 drop=1 warn=1
-    logo@11,21 110x28 28px/1L | headline@140,8 249x54 25px/2L | cta@556,14 161x43 23px/1L | legal@7,70 297x13 11px/1L
-travel-getaway mobile-banner    strip/logo-message-cta score=0.81 drop=3 warn=5
-    logo@8,19 32x12 12px/1L | headline@58,9 146x32 15px/2L | cta@234,7 72x36 12px/2L
+    logo@10,16 112x38 28px/1L | headline@140,8 264x54 25px/2L | cta@553,10 166x51 23px/1L | legal@7,69 304x14 11px/1L
+travel-getaway mobile-banner    strip/logo-message-cta score=0.80 drop=3 warn=5
+    logo@8,17 32x16 12px/1L | headline@58,6 152x38 15px/2L | cta@230,7 79x36 12px/2L
 travel-getaway large-mobile     strip/logo-message-cta score=0.83 drop=2 warn=4
-    logo@10,33 47x12 12px/1L | headline@75,10 138x58 18px/3L | cta@243,17 68x44 12px/2L | legal@7,80 297x13 11px/1L
+    logo@10,31 47x16 12px/1L | headline@75,8 149x62 18px/3L | cta@243,15 68x48 12px/2L | legal@7,77 304x16 11px/1L
 travel-getaway mpu              stack/centered score=0.98 drop=0 warn=0
-    logo@111,12 78x20 20px/1L | headline@14,51 272x60 28px/2L | subhead@22,133 256x20 16px/1L | cta@83,175 134x38 18px/1L | legal@9,229 270x12 10px/1L
+    logo@105,12 90x20 20px/1L | headline@10,50 280x63 28px/2L | subhead@17,131 265x25 16px/1L | cta@78,175 145x38 18px/1L | legal@9,229 276x12 10px/1L
 travel-getaway half-page        hero-overlay/band-bottom score=0.92 drop=1 warn=1
-    logo@14,339 71x18 18px/1L | headline@12,376 223x94 29px/3L | subhead@14,499 256x20 16px/1L | cta@13,549 134x38 18px/1L
+    logo@25,339 81x18 18px/1L | headline@23,375 240x95 29px/3L | subhead@25,488 175x42 16px/2L | cta@13,549 145x38 18px/1L
 travel-getaway billboard        strip/logo-message-cta score=0.90 drop=1 warn=1
-    logo@15,99 110x28 28px/1L | headline@144,13 476x201 62px/3L | cta@745,87 210x52 32px/1L | legal@11,221 405x18 15px/1L
+    logo@14,94 112x38 28px/1L | headline@144,12 513x202 62px/3L | cta@743,81 214x63 32px/1L | legal@11,221 414x18 15px/1L
 travel-getaway skyscraper       poster/centered score=0.87 drop=1 warn=1
-    logo@37,81 86x22 22px/1L | headline@22,209 115x49 15px/3L | subhead@23,376 114x71 19px/3L | cta@21,484 117x35 15px/1L
+    logo@30,81 99x22 22px/1L | headline@22,208 116x50 14px/3L | subhead@24,374 112x74 18px/3L | cta@18,482 124x38 15px/1L
 travel-getaway story            stack/centered score=0.90 drop=0 warn=0
-    logo@462,100 157x40 40px/1L | headline@75,430 929x392 121px/3L | subhead@220,1317 639x50 40px/1L | cta@403,1594 275x64 44px/1L | legal@49,1677 486x22 18px/1L
-travel-getaway feed-square      stack/centered score=0.95 drop=0 warn=0
-    logo@462,68 157x40 40px/1L | headline@91,187 899x379 117px/3L | subhead@220,741 639x50 40px/1L | cta@403,910 275x64 44px/1L | legal@65,993 486x22 18px/1L
-travel-getaway feed-portrait    stack/centered score=0.93 drop=0 warn=0
-    logo@462,76 157x40 40px/1L | headline@98,283 883x373 115px/3L | subhead@220,961 639x50 40px/1L | cta@403,1172 275x64 44px/1L | legal@73,1255 486x22 18px/1L
-travel-getaway feed-landscape   strip/logo-message-cta score=0.92 drop=1 warn=1
-    logo@53,288 110x28 28px/1L | headline@182,156 691x292 90px/3L | cta@937,276 210x52 32px/1L | legal@49,561 405x18 15px/1L
+    logo@450,100 181x40 40px/1L | headline@50,408 980x434 121px/3L | subhead@208,1310 663x64 40px/1L | cta@389,1591 301x70 44px/1L | legal@49,1677 497x22 18px/1L
+travel-getaway feed-square      stack/centered score=0.96 drop=0 warn=0
+    logo@450,68 181x40 40px/1L | headline@66,166 948x420 117px/3L | subhead@208,734 663x64 40px/1L | cta@389,907 301x70 44px/1L | legal@65,993 497x22 18px/1L
+travel-getaway feed-portrait    stack/centered score=0.94 drop=0 warn=0
+    logo@450,76 181x40 40px/1L | headline@74,262 932x413 115px/3L | subhead@208,954 663x64 40px/1L | cta@389,1169 301x70 44px/1L | legal@73,1255 497x22 18px/1L
+travel-getaway feed-landscape   strip/logo-message-cta score=0.94 drop=1 warn=1
+    logo@52,283 112x38 28px/1L | headline@182,140 736x323 90px/3L | cta@935,270 214x63 32px/1L | legal@49,561 414x18 15px/1L
 travel-getaway ctv-1080         strip/overlay-lower-third score=0.89 drop=2 warn=2
-    logo@100,105 149x38 38px/1L | headline@98,484 1317x285 132px/2L | cta@99,923 242x58 38px/1L
-travel-getaway ctv-720          strip/overlay-lower-third score=0.91 drop=2 warn=2
-    logo@68,73 149x38 38px/1L | headline@66,281 1118x248 115px/2L | cta@67,595 242x58 38px/1L
-travel-getaway dooh-portrait    poster/centered score=0.87 drop=1 warn=1
-    logo@497,295 86x22 22px/1L | headline@160,580 760x321 99px/3L | subhead@220,1323 639x50 40px/1L | cta@403,1559 275x64 44px/1L
+    logo@100,100 152x48 38px/1L | headline@112,461 1396x331 132px/2L | cta@99,923 265x58 38px/1L
+travel-getaway ctv-720          strip/overlay-lower-third score=0.92 drop=2 warn=2
+    logo@68,68 152x48 38px/1L | headline@80,264 1120x281 112px/2L | cta@67,595 265x58 38px/1L
+travel-getaway dooh-portrait    poster/centered score=0.88 drop=1 warn=1
+    logo@490,295 99x22 22px/1L | headline@151,569 778x345 96px/3L | subhead@208,1316 663x64 40px/1L | cta@389,1556 301x70 44px/1L
 travel-getaway dooh-landscape   strip/overlay-lower-third score=0.89 drop=2 warn=2
-    logo@84,89 149x38 38px/1L | headline@82,488 1317x285 132px/2L | cta@83,939 242x58 38px/1L
-travel-getaway dooh-ultrawide   strip/overlay-lower-third score=0.83 drop=3 warn=3
-    logo@84,89 149x38 38px/1L | headline@82,560 2366x143 132px/1L | cta@83,939 242x58 38px/1L
-travel-getaway native           strip/logo-message-cta score=0.92 drop=1 warn=1
-    logo@29,288 110x28 28px/1L | headline@158,146 737x311 96px/3L | cta@961,276 210x52 32px/1L | legal@25,584 405x18 15px/1L
+    logo@84,84 152x48 38px/1L | headline@96,465 1396x331 132px/2L | cta@83,939 265x58 38px/1L
+travel-getaway dooh-ultrawide   strip/overlay-lower-third score=0.84 drop=3 warn=3
+    logo@84,84 152x48 38px/1L | headline@96,536 2445x189 132px/1L | cta@83,939 265x58 38px/1L
+travel-getaway native           strip/logo-message-cta score=0.93 drop=1 warn=1
+    logo@28,283 112x38 28px/1L | headline@158,129 784x345 96px/3L | cta@959,270 214x63 32px/1L | legal@25,584 414x18 15px/1L
 mobile-game    leaderboard      strip/logo-message-cta score=0.93 drop=2 warn=2
-    logo@14,35 105x20 20px/1L | headline@140,22 383x46 43px/1L | cta@555,23 163x44 24px/1L
-mobile-game    mobile-banner    strip/logo-message-cta score=0.83 drop=2 warn=4
-    logo@8,13 32x24 12px/2L | headline@58,7 84x37 17px/2L | cta@234,7 72x36 12px/2L
+    logo@10,32 112x27 20px/1L | headline@140,14 396x61 43px/1L | cta@553,19 166x52 24px/1L
+mobile-game    mobile-banner    strip/logo-message-cta score=0.82 drop=2 warn=4
+    logo@8,11 32x28 12px/2L | headline@58,6 94x38 17px/2L | cta@230,7 79x36 12px/2L
 mobile-game    large-mobile     strip/logo-message-cta score=0.82 drop=2 warn=4
-    logo@14,38 39x24 12px/2L | headline@75,18 148x65 30px/2L | cta@243,28 68x44 12px/2L
+    logo@11,36 46x28 12px/2L | headline@75,12 151x75 30px/2L | cta@243,26 68x48 12px/2L
 mobile-game    mpu              split/image-right score=0.94 drop=1 warn=1
-    product@165,17 118x216 | logo@12,12 94x18 18px/1L | headline@10,89 123x54 25px/2L | cta@11,202 121x36 16px/1L
+    product@165,17 118x216 | logo@12,12 105x18 18px/1L | headline@10,85 126x63 25px/2L | cta@11,201 124x38 16px/1L
 mobile-game    half-page        stack/centered score=0.96 drop=0 warn=0
-    logo@98,14 105x20 20px/1L | badge@94,54 111x14 14px/1L | headline@15,117 271x119 55px/2L | product@24,295 252x225 | cta@84,549 131x38 18px/1L
+    logo@92,14 117x20 20px/1L | badge@90,54 120x14 14px/1L | headline@12,108 276x138 55px/2L | product@24,295 252x225 | cta@79,549 142x38 18px/1L
 mobile-game    billboard        strip/logo-message-cta score=0.91 drop=2 warn=2
-    logo@18,115 105x20 20px/1L | headline@144,13 512x225 104px/2L | cta@747,99 205x52 32px/1L
+    logo@14,112 112x27 20px/1L | headline@144,12 574x226 104px/2L | cta@743,93 214x63 32px/1L
 mobile-game    skyscraper       stack/centered score=0.96 drop=0 warn=0
-    logo@28,10 105x20 20px/1L | badge@24,50 111x14 14px/1L | headline@11,144 138x60 28px/2L | product@16,290 129x238 | cta@14,553 131x38 18px/1L
+    logo@22,10 117x20 20px/1L | badge@20,50 120x14 14px/1L | headline@8,139 144x70 28px/2L | product@16,290 129x238 | cta@9,553 142x38 18px/1L
 mobile-game    story            stack/centered score=0.92 drop=0 warn=0
-    logo@435,100 210x40 40px/1L | badge@452,164 175x22 22px/1L | headline@215,358 649x285 132px/2L | product@84,844 912x733 | cta@406,1630 269x64 44px/1L
-mobile-game    feed-square      hero-overlay/band-bottom score=0.94 drop=1 warn=2
-    logo@68,601 94x18 18px/1L | headline@66,639 649x285 132px/2L | cta@67,946 269x64 44px/1L | badge@68,78 103x13 13px/1L
+    logo@423,100 234x40 40px/1L | badge@446,160 188x30 22px/1L | headline@176,335 729x331 132px/2L | product@84,844 912x733 | cta@392,1627 295x70 44px/1L
+mobile-game    feed-square      hero-overlay/band-bottom score=0.95 drop=1 warn=2
+    logo@82,601 105x18 18px/1L | headline@80,637 729x289 132px/2L | cta@67,943 295x70 44px/1L | badge@72,76 103x16 12px/1L
 mobile-game    feed-portrait    hero-overlay/band-bottom score=0.93 drop=1 warn=2
-    logo@76,751 94x18 18px/1L | headline@74,845 649x285 132px/2L | cta@75,1208 269x64 44px/1L | badge@76,86 103x13 13px/1L
-mobile-game    feed-landscape   strip/overlay-lower-third score=0.92 drop=2 warn=3
-    logo@52,62 147x28 28px/1L | headline@50,208 649x285 132px/2L | cta@51,519 237x58 38px/1L
-mobile-game    ctv-1080         sidebar/rail-left score=0.86 drop=1 warn=1
-    product@473,135 1312x810 | logo@100,100 115x22 22px/1L | headline@98,449 310x136 63px/2L | cta@99,914 269x64 44px/1L
-mobile-game    ctv-720          strip/overlay-lower-third score=0.91 drop=2 warn=3
-    logo@68,78 147x28 28px/1L | headline@66,262 649x285 132px/2L | cta@67,595 237x58 38px/1L
-mobile-game    dooh-portrait    stack/centered score=0.93 drop=0 warn=0
-    logo@435,84 210x40 40px/1L | badge@452,148 175x22 22px/1L | headline@215,375 649x285 132px/2L | product@119,897 841x816 | cta@406,1770 269x64 44px/1L
-mobile-game    dooh-landscape   sidebar/rail-left score=0.87 drop=1 warn=1
-    product@458,120 1341x839 | logo@84,84 115x22 22px/1L | headline@82,449 310x136 63px/2L | cta@83,930 269x64 44px/1L
+    logo@90,751 105x18 18px/1L | headline@88,822 729x331 132px/2L | cta@75,1205 295x70 44px/1L | badge@80,84 103x16 12px/1L
+mobile-game    feed-landscape   strip/overlay-lower-third score=0.93 drop=2 warn=3
+    logo@52,57 152x38 28px/1L | headline@64,199 729x303 132px/2L | cta@51,519 260x58 38px/1L
+mobile-game    ctv-1080         strip/overlay-lower-third score=0.87 drop=2 warn=3
+    logo@100,105 152x38 28px/1L | headline@112,532 1255x189 132px/1L | cta@99,923 260x58 38px/1L
+mobile-game    ctv-720          strip/overlay-lower-third score=0.92 drop=2 warn=3
+    logo@68,73 152x38 28px/1L | headline@80,239 729x331 132px/2L | cta@67,595 260x58 38px/1L
+mobile-game    dooh-portrait    stack/centered score=0.94 drop=0 warn=0
+    logo@423,84 234x40 40px/1L | badge@446,144 188x30 22px/1L | headline@176,352 729x331 132px/2L | product@119,897 841x816 | cta@392,1767 295x70 44px/1L
+mobile-game    dooh-landscape   strip/overlay-lower-third score=0.87 drop=2 warn=3
+    logo@84,89 152x38 28px/1L | headline@96,536 1255x189 132px/1L | cta@83,939 260x58 38px/1L
 mobile-game    dooh-ultrawide   strip/overlay-lower-third score=0.84 drop=2 warn=3
-    logo@84,94 147x28 28px/1L | headline@82,560 1175x143 132px/1L | cta@83,939 237x58 38px/1L
-mobile-game    native           strip/overlay-lower-third score=0.92 drop=2 warn=3
-    logo@28,38 147x28 28px/1L | headline@26,214 649x285 132px/2L | cta@27,542 237x58 38px/1L
+    logo@84,89 152x38 28px/1L | headline@96,536 1255x189 132px/1L | cta@83,939 260x58 38px/1L
+mobile-game    native           strip/overlay-lower-third score=0.93 drop=2 warn=3
+    logo@28,33 152x38 28px/1L | headline@40,191 729x331 132px/2L | cta@27,542 260x58 38px/1L
 d2c-skincare   leaderboard      strip/logo-message-cta score=0.94 drop=2 warn=2
-    logo@13,23 106x24 24px/1L | headline@140,18 384x35 32px/1L | cta@556,12 160x47 27px/1L | legal@7,70 280x13 11px/1L
+    logo@10,19 112x32 24px/1L | headline@140,12 396x46 32px/1L | cta@553,9 166x52 27px/1L | legal@7,69 287x14 11px/1L
 d2c-skincare   mobile-banner    strip/logo-message-cta score=0.82 drop=3 warn=5
-    logo@8,19 32x12 12px/1L | headline@58,7 107x37 17px/2L | cta@238,7 64x36 12px/2L
+    logo@8,17 32x16 12px/1L | headline@58,6 117x38 17px/2L | cta@234,7 71x36 12px/2L
 d2c-skincare   large-mobile     strip/logo-message-cta score=0.83 drop=2 warn=4
-    logo@10,33 47x12 12px/1L | headline@75,14 145x50 23px/2L | cta@245,17 64x44 12px/2L | legal@7,80 280x13 11px/1L
+    logo@10,31 47x16 12px/1L | headline@75,10 151x58 23px/2L | cta@243,15 68x48 12px/2L | legal@7,77 287x16 11px/1L
 d2c-skincare   mpu              split/image-right score=0.94 drop=1 warn=1
-    product@165,17 118x216 | logo@12,12 80x18 18px/1L | headline@10,53 119x71 22px/3L | subhead@12,148 117x33 13px/2L | cta@11,201 119x38 18px/1L
+    product@165,17 118x216 | logo@12,12 91x18 18px/1L | headline@10,49 126x79 22px/3L | subhead@12,147 122x35 13px/2L | cta@11,201 124x38 18px/1L
 d2c-skincare   half-page        stack/centered score=0.95 drop=0 warn=0
-    logo@106,14 89x20 20px/1L | headline@28,53 244x146 45px/3L | subhead@29,218 243x68 27px/2L | product@22,313 256x183 | cta@91,523 119x38 18px/1L | legal@11,577 255x12 10px/1L
+    logo@100,14 101x20 20px/1L | headline@15,52 271x148 45px/3L | subhead@20,218 259x68 27px/2L | product@22,313 256x183 | cta@85,523 130x38 18px/1L | legal@11,577 261x12 10px/1L
 d2c-skincare   billboard        strip/logo-message-cta score=0.92 drop=2 warn=2
-    logo@17,101 106x24 24px/1L | headline@144,16 568x194 90px/2L | cta@747,85 207x57 37px/1L | legal@11,221 382x18 15px/1L
+    logo@14,97 112x32 24px/1L | headline@144,12 582x202 90px/2L | cta@743,78 214x70 37px/1L | legal@11,221 391x18 15px/1L
 d2c-skincare   skyscraper       poster/centered score=0.94 drop=2 warn=3
-    logo@31,81 97x22 22px/1L | headline@20,198 119x71 22px/3L | subhead@22,378 115x68 18px/3L | cta@21,482 119x38 18px/1L
-d2c-skincare   story            stack/centered score=0.90 drop=0 warn=0
-    logo@451,100 177x40 40px/1L | headline@124,257 832x285 132px/2L | subhead@211,753 658x50 40px/1L | product@78,942 923x604 | cta@421,1594 239x64 44px/1L | legal@49,1677 458x22 18px/1L
-d2c-skincare   feed-square      poster/centered score=0.92 drop=2 warn=4
-    logo@491,182 97x22 22px/1L | headline@133,279 813x279 129px/2L | subhead@211,694 658x50 40px/1L | cta@421,832 239x64 44px/1L
-d2c-skincare   feed-portrait    hero-overlay/band-bottom score=0.91 drop=2 warn=3
-    logo@76,751 80x18 18px/1L | headline@74,788 750x257 119px/2L | subhead@76,1100 658x50 40px/1L | cta@75,1208 239x64 44px/1L
-d2c-skincare   feed-landscape   strip/logo-message-cta score=0.92 drop=2 warn=2
-    logo@55,290 106x24 24px/1L | headline@182,88 715x428 132px/3L | cta@939,274 207x57 37px/1L | legal@49,561 382x18 15px/1L
-d2c-skincare   ctv-1080         hero-overlay/band-center score=0.88 drop=2 warn=3
-    headline@168,370 1583x143 132px/1L | subhead@631,574 658x50 40px/1L | cta@841,666 239x64 44px/1L | logo@96,108 177x40 40px/1L
+    logo@25,81 111x22 22px/1L | headline@22,197 116x72 20px/3L | subhead@24,376 112x70 17px/3L | cta@18,482 124x38 18px/1L
+d2c-skincare   story            stack/centered score=0.91 drop=0 warn=0
+    logo@439,100 201x40 40px/1L | headline@84,234 912x331 132px/2L | subhead@199,746 682x64 40px/1L | product@78,942 923x604 | cta@407,1591 265x70 44px/1L | legal@49,1677 469x22 18px/1L
+d2c-skincare   feed-square      poster/centered score=0.93 drop=2 warn=4
+    logo@485,182 111x22 22px/1L | headline@137,262 806x314 125px/2L | subhead@199,687 682x64 40px/1L | cta@407,829 265x70 44px/1L
+d2c-skincare   feed-portrait    hero-overlay/band-bottom score=0.92 drop=2 warn=3
+    logo@90,751 91x18 18px/1L | headline@88,787 822x258 119px/2L | subhead@90,1093 682x64 40px/1L | cta@75,1205 265x70 44px/1L
+d2c-skincare   feed-landscape   strip/logo-message-cta score=0.93 drop=2 warn=2
+    logo@52,286 112x32 24px/1L | headline@182,65 736x474 132px/3L | cta@935,267 214x70 37px/1L | legal@49,561 391x18 15px/1L
+d2c-skincare   ctv-1080         hero-overlay/band-center score=0.90 drop=2 warn=3
+    headline@129,347 1663x189 132px/1L | subhead@619,567 682x64 40px/1L | cta@827,663 265x70 44px/1L | logo@110,101 201x54 40px/1L
 d2c-skincare   ctv-720          strip/overlay-lower-third score=0.90 drop=3 warn=4
-    logo@68,76 146x33 33px/1L | headline@66,262 832x285 132px/2L | cta@67,595 211x58 38px/1L
+    logo@68,70 152x45 33px/1L | headline@80,239 912x331 132px/2L | cta@67,595 234x58 38px/1L
 d2c-skincare   dooh-portrait    hero-overlay/band-center score=0.90 drop=2 warn=4
-    headline@124,655 832x285 132px/2L | subhead@211,1122 658x50 40px/1L | cta@421,1277 239x64 44px/1L | logo@80,92 177x40 40px/1L
-d2c-skincare   dooh-landscape   hero-overlay/band-center score=0.88 drop=2 warn=3
-    headline@168,368 1583x143 132px/1L | subhead@631,579 658x50 40px/1L | cta@841,673 239x64 44px/1L | logo@80,92 177x40 40px/1L
-d2c-skincare   dooh-ultrawide   strip/overlay-lower-third score=0.83 drop=3 warn=4
-    logo@84,92 146x33 33px/1L | headline@82,560 1583x143 132px/1L | cta@83,939 211x58 38px/1L
-d2c-skincare   native           strip/logo-message-cta score=0.92 drop=2 warn=2
-    logo@31,290 106x24 24px/1L | headline@158,88 715x428 132px/3L | cta@963,273 207x57 37px/1L | legal@25,584 382x18 15px/1L
+    headline@96,632 888x331 132px/2L | subhead@199,1115 682x64 40px/1L | cta@407,1275 265x70 44px/1L | logo@94,85 201x54 40px/1L
+d2c-skincare   dooh-landscape   hero-overlay/band-center score=0.90 drop=2 warn=3
+    headline@129,345 1663x189 132px/1L | subhead@619,572 682x64 40px/1L | cta@827,670 265x70 44px/1L | logo@94,85 201x54 40px/1L
+d2c-skincare   dooh-ultrawide   strip/overlay-lower-third score=0.84 drop=3 warn=4
+    logo@84,86 152x45 33px/1L | headline@96,536 1663x189 132px/1L | cta@83,939 234x58 38px/1L
+d2c-skincare   native           strip/logo-message-cta score=0.93 drop=2 warn=2
+    logo@28,285 112x32 24px/1L | headline@158,65 784x474 132px/3L | cta@959,267 214x70 37px/1L | legal@25,584 391x18 15px/1L
 saas-trial     leaderboard      strip/logo-message-cta score=0.95 drop=1 warn=1
-    logo@12,22 108x27 27px/1L | headline@140,23 382x25 23px/1L | cta@556,16 160x39 19px/1L | legal@7,70 121x13 11px/1L
-saas-trial     mobile-banner    strip/logo-message-cta score=0.82 drop=2 warn=4
-    logo@8,19 32x12 12px/1L | headline@58,8 142x35 16px/2L | cta@228,7 84x36 12px/2L
+    logo@10,17 112x36 27px/1L | headline@140,19 396x33 23px/1L | cta@553,12 166x46 19px/1L | legal@7,69 128x14 11px/1L
+saas-trial     mobile-banner    strip/logo-message-cta score=0.81 drop=2 warn=4
+    logo@8,17 32x16 12px/1L | headline@58,6 152x38 16px/2L | cta@227,7 86x36 12px/2L
 saas-trial     large-mobile     strip/logo-message-cta score=0.85 drop=1 warn=3
-    logo@10,33 47x12 12px/1L | headline@75,8 113x62 19px/3L | cta@246,11 63x56 12px/3L | legal@7,77 143x16 13px/1L
+    logo@10,31 47x16 12px/1L | headline@75,8 125x62 19px/3L | cta@243,9 68x60 12px/3L | legal@7,77 151x16 13px/1L
 saas-trial     mpu              stack/centered score=0.97 drop=0 warn=0
-    logo@110,12 80x20 20px/1L | headline@21,50 258x63 29px/2L | subhead@21,133 258x21 17px/1L | cta@73,175 154x38 18px/1L | legal@9,229 110x12 10px/1L
-saas-trial     half-page        hero-overlay/band-bottom score=0.96 drop=1 warn=4
-    logo@14,339 72x18 18px/1L | headline@12,390 266x65 30px/2L | subhead@14,499 258x21 17px/1L | cta@13,549 154x38 18px/1L
+    logo@104,12 92x20 20px/1L | headline@13,50 275x63 29px/2L | subhead@16,131 268x25 17px/1L | cta@68,175 164x38 18px/1L | legal@9,229 116x12 10px/1L
+saas-trial     half-page        hero-overlay/band-center score=0.96 drop=1 warn=3
+    headline@42,176 217x118 33px/3L | subhead@25,328 250x26 16px/1L | cta@68,387 164x38 18px/1L | logo@21,15 184x54 40px/1L
 saas-trial     billboard        strip/logo-message-cta score=0.94 drop=1 warn=1
-    logo@16,100 108x27 27px/1L | headline@144,44 568x138 64px/2L | cta@747,90 206x46 26px/1L | legal@11,221 165x18 15px/1L
+    logo@14,95 112x36 27px/1L | headline@144,33 582x161 64px/2L | cta@743,85 214x55 26px/1L | legal@11,221 174x18 15px/1L
 saas-trial     skyscraper       stack/centered score=0.94 drop=0 warn=0
-    logo@40,10 80x20 20px/1L | headline@26,168 107x58 18px/3L | subhead@19,399 122x75 20px/3L | cta@13,529 134x35 15px/1L | legal@7,581 110x12 10px/1L
+    logo@34,10 92x20 20px/1L | headline@21,165 118x65 18px/3L | subhead@13,395 134x82 20px/3L | cta@9,527 142x38 15px/1L | legal@7,581 116x12 10px/1L
 saas-trial     story            stack/centered score=0.94 drop=0 warn=0
-    logo@460,100 160x40 40px/1L | headline@158,418 763x415 128px/3L | subhead@237,1317 607x50 40px/1L | cta@378,1594 324x64 44px/1L | legal@49,1677 198x22 18px/1L
-saas-trial     feed-square      stack/centered score=0.96 drop=0 warn=0
-    logo@460,68 160x40 40px/1L | headline@170,175 740x402 124px/3L | subhead@237,741 607x50 40px/1L | cta@378,910 324x64 44px/1L | legal@65,993 198x22 18px/1L
-saas-trial     feed-portrait    stack/centered score=0.95 drop=0 warn=0
-    logo@460,76 160x40 40px/1L | headline@176,271 728x395 122px/3L | subhead@237,961 607x50 40px/1L | cta@378,1172 324x64 44px/1L | legal@73,1255 198x22 18px/1L
-saas-trial     feed-landscape   strip/overlay-lower-third score=0.93 drop=2 warn=3
-    logo@52,58 148x37 37px/1L | headline@50,220 1074x261 121px/2L | cta@51,519 284x58 38px/1L
-saas-trial     ctv-1080         hero-overlay/band-center score=0.90 drop=1 warn=2
-    headline@121,387 1678x109 101px/1L | subhead@657,574 607x50 40px/1L | cta@798,666 324x64 44px/1L | logo@96,108 160x40 40px/1L
+    logo@448,100 184x40 40px/1L | headline@120,396 840x460 128px/3L | subhead@225,1310 631x64 40px/1L | cta@365,1591 350x70 44px/1L | legal@49,1677 209x22 18px/1L
+saas-trial     feed-square      stack/centered score=0.97 drop=0 warn=0
+    logo@448,68 184x40 40px/1L | headline@133,154 814x445 124px/3L | subhead@225,734 631x64 40px/1L | cta@365,907 350x70 44px/1L | legal@65,993 209x22 18px/1L
+saas-trial     feed-portrait    stack/centered score=0.96 drop=0 warn=0
+    logo@448,76 184x40 40px/1L | headline@140,250 801x438 122px/3L | subhead@225,954 631x64 40px/1L | cta@365,1169 350x70 44px/1L | legal@73,1255 209x22 18px/1L
+saas-trial     feed-landscape   strip/logo-message-cta score=0.94 drop=1 warn=1
+    logo@52,284 112x36 27px/1L | headline@182,130 630x345 96px/3L | cta@935,274 214x55 26px/1L | legal@49,561 174x18 15px/1L
+saas-trial     ctv-1080         hero-overlay/band-center score=0.92 drop=1 warn=2
+    headline@112,370 1696x143 100px/1L | subhead@645,567 631x64 40px/1L | cta@785,663 350x70 44px/1L | logo@110,101 184x54 40px/1L
 saas-trial     ctv-720          strip/overlay-lower-third score=0.93 drop=2 warn=3
-    logo@68,74 148x37 37px/1L | headline@66,269 1119x272 126px/2L | cta@67,595 284x58 38px/1L
-saas-trial     dooh-portrait    hero-overlay/band-center score=0.92 drop=1 warn=2
-    headline@182,603 716x389 120px/3L | subhead@237,1122 607x50 40px/1L | cta@378,1277 324x64 44px/1L | logo@80,92 160x40 40px/1L
-saas-trial     dooh-landscape   hero-overlay/band-center score=0.90 drop=1 warn=3
-    headline@104,384 1712x111 103px/1L | subhead@657,579 607x50 40px/1L | cta@798,673 324x64 44px/1L | logo@80,92 160x40 40px/1L
-saas-trial     dooh-ultrawide   strip/overlay-lower-third score=0.85 drop=2 warn=3
-    logo@84,90 148x37 37px/1L | headline@82,560 2194x143 132px/1L | cta@83,939 284x58 38px/1L
-saas-trial     native           strip/overlay-lower-third score=0.93 drop=2 warn=3
-    logo@28,34 148x37 37px/1L | headline@26,220 1119x272 126px/2L | cta@27,542 284x58 38px/1L
+    logo@68,68 152x48 37px/1L | headline@80,251 1120x309 123px/2L | cta@67,595 307x58 38px/1L
+saas-trial     dooh-portrait    hero-overlay/band-center score=0.93 drop=1 warn=2
+    headline@159,590 761x416 116px/3L | subhead@225,1115 631x64 40px/1L | cta@365,1275 350x70 44px/1L | logo@94,85 184x54 40px/1L
+saas-trial     dooh-landscape   hero-overlay/band-center score=0.92 drop=1 warn=3
+    headline@96,367 1728x144 101px/1L | subhead@645,572 631x64 40px/1L | cta@785,670 350x70 44px/1L | logo@94,85 184x54 40px/1L
+saas-trial     dooh-ultrawide   strip/overlay-lower-third score=0.86 drop=2 warn=3
+    logo@84,84 152x48 37px/1L | headline@96,536 2273x189 132px/1L | cta@83,939 307x58 38px/1L
+saas-trial     native           strip/logo-message-cta score=0.93 drop=1 warn=1
+    logo@28,283 112x36 27px/1L | headline@158,118 670x366 102px/3L | cta@959,274 214x55 26px/1L | legal@25,584 174x18 15px/1L
 event-promo    leaderboard      strip/logo-message-cta score=0.86 drop=2 warn=2
-    headline@20,29 502x31 29px/1L | cta@557,23 158x44 24px/1L
-event-promo    mobile-banner    strip/logo-message-cta score=0.79 drop=3 warn=5
-    headline@18,6 84x38 14px/3L | cta@233,7 75x36 12px/2L
+    headline@20,24 516x41 29px/1L | cta@553,19 166x52 24px/1L
+event-promo    mobile-banner    strip/logo-message-cta score=0.78 drop=3 warn=5
+    headline@18,6 93x38 14px/3L | cta@229,7 82x36 12px/2L
 event-promo    large-mobile     strip/logo-message-cta score=0.79 drop=3 warn=4
-    headline@20,8 156x84 26px/3L | cta@243,28 68x44 12px/2L
+    headline@20,8 172x84 26px/3L | cta@243,26 68x48 12px/2L
 event-promo    mpu              stack/centered score=0.96 drop=0 warn=0
-    badge@62,12 175x14 14px/1L | headline@72,44 156x84 26px/3L | subhead@15,155 270x18 14px/1L | cta@86,201 128x38 18px/1L
+    badge@58,12 184x14 14px/1L | headline@64,44 172x84 26px/3L | subhead@12,153 276x22 14px/1L | cta@81,201 138x38 18px/1L
 event-promo    half-page        stack/centered score=0.91 drop=0 warn=0
-    badge@62,14 175x14 14px/1L | headline@15,130 270x146 45px/3L | subhead@29,396 241x116 31px/3L | cta@86,549 128x38 18px/1L
+    badge@58,14 184x14 14px/1L | headline@12,123 276x162 45px/3L | subhead@20,391 260x127 31px/3L | cta@81,549 138x38 18px/1L
 event-promo    billboard        strip/logo-message-cta score=0.85 drop=2 warn=2
-    headline@24,13 415x224 69px/3L | cta@745,98 209x54 34px/1L
+    headline@24,12 456x226 69px/3L | cta@743,92 214x66 34px/1L
 event-promo    skyscraper       stack/centered score=0.83 drop=0 warn=1
-    badge@17,12 125x10 10px/1L | headline@11,165 138x75 23px/3L | subhead@18,427 124x60 16px/3L | cta@16,553 128x38 18px/1L
-event-promo    story            stack/centered score=0.87 drop=0 warn=0
-    badge@402,104 275x22 22px/1L | headline@143,417 793x428 132px/3L | subhead@155,1345 770x50 40px/1L | cta@410,1630 260x64 44px/1L
-event-promo    feed-square      stack/centered score=0.93 drop=0 warn=0
-    badge@402,72 275x22 22px/1L | headline@143,168 793x428 132px/3L | subhead@155,770 770x50 40px/1L | cta@410,946 260x64 44px/1L
-event-promo    feed-portrait    stack/centered score=0.90 drop=0 warn=0
-    badge@402,80 275x22 22px/1L | headline@143,260 793x428 132px/3L | subhead@155,989 770x50 40px/1L | cta@410,1208 260x64 44px/1L
-event-promo    feed-landscape   strip/overlay-lower-third score=0.89 drop=2 warn=3
-    headline@50,200 559x301 93px/3L | cta@51,519 229x58 38px/1L
-event-promo    ctv-1080         split/image-left score=0.88 drop=1 warn=1
-    headline@950,145 793x428 132px/3L | subhead@952,740 770x50 40px/1L | cta@951,914 260x64 44px/1L
-event-promo    ctv-720          strip/overlay-lower-third score=0.88 drop=2 warn=3
-    headline@66,232 643x346 107px/3L | cta@67,595 229x58 38px/1L
-event-promo    dooh-portrait    stack/centered score=0.87 drop=0 warn=0
-    badge@402,88 275x22 22px/1L | headline@143,453 793x428 132px/3L | subhead@155,1459 770x50 40px/1L | cta@410,1770 260x64 44px/1L
-event-promo    dooh-landscape   split/image-left score=0.88 drop=1 warn=1
-    headline@950,140 793x428 132px/3L | subhead@952,751 770x50 40px/1L | cta@951,930 260x64 44px/1L
-event-promo    dooh-ultrawide   strip/overlay-lower-third score=0.80 drop=3 warn=3
-    headline@82,560 2286x143 132px/1L | cta@83,939 229x58 38px/1L
+    badge@14,10 131x14 10px/1L | headline@8,161 144x83 23px/3L | subhead@13,424 134x66 16px/3L | cta@11,553 138x38 18px/1L
+event-promo    story            stack/centered score=0.88 drop=0 warn=0
+    badge@396,100 288x30 22px/1L | headline@104,394 873x474 132px/3L | subhead@143,1338 794x64 40px/1L | cta@397,1627 286x70 44px/1L
+event-promo    feed-square      stack/centered score=0.94 drop=0 warn=0
+    badge@396,68 288x30 22px/1L | headline@104,144 873x474 132px/3L | subhead@143,763 794x64 40px/1L | cta@397,943 286x70 44px/1L
+event-promo    feed-portrait    stack/centered score=0.91 drop=0 warn=0
+    badge@396,76 288x30 22px/1L | headline@104,237 873x474 132px/3L | subhead@143,982 794x64 40px/1L | cta@397,1205 286x70 44px/1L
+event-promo    feed-landscape   strip/overlay-lower-third score=0.90 drop=2 warn=3
+    headline@64,199 615x303 93px/3L | cta@51,519 252x58 38px/1L
+event-promo    ctv-1080         split/image-left score=0.89 drop=1 warn=1
+    headline@950,122 872x474 132px/3L | subhead@952,733 794x64 40px/1L | cta@951,911 286x70 44px/1L
+event-promo    ctv-720          strip/overlay-lower-third score=0.89 drop=2 warn=3
+    headline@80,232 707x346 107px/3L | cta@67,595 252x58 38px/1L
+event-promo    dooh-portrait    stack/centered score=0.88 drop=0 warn=0
+    badge@396,84 288x30 22px/1L | headline@104,430 873x474 132px/3L | subhead@143,1452 794x64 40px/1L | cta@397,1767 286x70 44px/1L
+event-promo    dooh-landscape   split/image-left score=0.89 drop=1 warn=1
+    headline@950,117 873x474 132px/3L | subhead@952,744 794x64 40px/1L | cta@951,927 286x70 44px/1L
+event-promo    dooh-ultrawide   strip/overlay-lower-third score=0.81 drop=3 warn=3
+    headline@96,536 2365x189 132px/1L | cta@83,939 252x58 38px/1L
 event-promo    native           strip/overlay-lower-third score=0.89 drop=2 warn=3
-    headline@26,188 625x337 104px/3L | cta@27,542 229x58 38px/1L"
+    headline@40,188 687x337 104px/3L | cta@27,542 252x58 38px/1L"
 `;
