@@ -239,8 +239,11 @@ Worker, so the wall and the resize scrubber stay at 60fps.
 - **Visual regression** (`npm run test:visual`, opt‑in) — Playwright screenshots
   of the wall, the inspector, and the scrubber at six shapes.
 
-CI (`.github/workflows/ci.yml`) runs typecheck → lint → format → test → build →
-bench on every push and PR.
+The pipeline — typecheck → lint → format → test → build → bench — is defined in
+[`.github/ci.yml`](.github/ci.yml). To turn it into a live GitHub Actions check:
+`mkdir -p .github/workflows && git mv .github/ci.yml .github/workflows/ci.yml`
+(needs a token with the `workflow` scope). Locally it's one command:
+`npm run typecheck && npm run lint && npm run format:check && npm test && npm run build && npm run bench`.
 
 ---
 
