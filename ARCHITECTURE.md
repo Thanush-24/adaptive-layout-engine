@@ -119,6 +119,64 @@ assembles the `Trace` (archetype, content budget, every candidate with its
 per‑rule scores, the winner, each degradation step with before/after score, and
 `elapsedMs`).
 
+### `narrate.ts` — the trace in prose
+
+Pure `narrate(layout): string[]`. Turns the trace into 3–5 sentences: the
+archetype and strategy chosen, how the winner beat the runner‑up and on which
+rule, the weakest and strongest rubric rules, what was shed and the score it
+bought, and any unresolved warning. Used by the scrubber and by `ale --explain`.
+
+### `dsl.ts` — authoring + validation
+
+`parseCreative(input): ParseResult`. Accepts anything (a file, an API body, the
+playground editor), walks it once collecting **every** error with a JSON‑path
+(`elements[2].image.focal`), separates hard errors from soft warnings ("no CTA",
+"2 headline elements"), fills role‑derived defaults, and returns a typed
+`Creative` or the error list — it never throws, so a UI can show all problems at
+once.
+
+## The playground
+
+### `playground/engine/` — the engine off the main thread
+
+`worker.ts` runs `resolveLayout`; `client.ts` wraps it in a promise API with
+**latest‑wins** semantics — while a request is in flight, new calls queue and only
+the most recent survives, which is exactly what a resize scrubber dragging at
+60fps needs. Falls back to a synchronous in‑thread resolve where Workers are
+unavailable (SSR, tests). The wall and the scrubber each hold their own client so
+they never contend for the queue.
+
+### The two views
+
+- **`SurfaceCard` + `Inspector`** — the 17‑surface wall. The card renders the ad
+  scaled to fit; the inspector shows the rubric bars, every candidate with its
+  three worst rules, the degradation log and the warnings.
+- **`Scrubber`** — one large surface with sliders / drag‑handles / presets. Every
+  dimension change posts to the worker; the result updates the preview, the live
+  archetype/strategy/score readout, the mini‑rubric, and the `narrate()` output.
+
+## Rendering
+
+Three renderers read only `ResolvedLayout`:
+
+- **`render/react/AdSurface.tsx`** — true‑pixel placement inside a scaled frame,
+  optional debug overlay layer, and FLIP‑style transitions to each re‑resolved
+  layout.
+- **`render/html.ts`** — a self‑contained inline‑styled `<div>` tree; the focal
+  crop becomes `object-fit` / `object-position`, scrims are per‑line inline
+  backgrounds. No runtime.
+- **`render/svg.ts`** — a standalone `<svg>`; the focal crop becomes an
+  over‑scaled `<image>` inside a `<clipPath>`, gradients are converted to
+  `<linearGradient>`. The CLI's file target.
+
+## The CLI — `bin/ale.ts`
+
+Bundled to `dist/ale.mjs` by `vite.cli.config.ts` (node target, all builtins
+external). `render` resolves a creative onto a surface selection, writes
+HTML/SVG/JSON per surface, prints a score table (plus `narrate()` with
+`--explain`), and exits non‑zero if any surface scores below 0.55 — a drop‑in
+content‑pipeline gate.
+
 ## Design rationale
 
 **Why candidate generation + scoring instead of template selection?**
@@ -143,3 +201,15 @@ the advertiser is contractually obliged to show.
 Zero licensing risk, deterministic tests, and every asset carries an honest focal
 point and mean luminance so the focal‑crop and auto‑colour paths are actually
 exercised. The playground still accepts any pasted image URL.
+
+**Why a Web Worker for a sub‑2ms function?**
+One resolve is cheap; a 17‑surface wall re‑resolving on every keystroke, or a
+scrubber re‑resolving on every drag frame, is not. Moving it off the main thread
+keeps input handling and the FLIP transitions smooth, and the latest‑wins client
+means a fast drag never queues up stale work.
+
+**Why three renderers?**
+`ResolvedLayout` is the contract. React is for the playground; the HTML string is
+for email / SSR / a quick export; SVG is for crisp scalable files and is what the
+CLI writes. Each is ~150 lines because the engine already did the hard part —
+they only translate rects, font sizes and colours into their own syntax.
