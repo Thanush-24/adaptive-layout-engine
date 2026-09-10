@@ -23,5 +23,8 @@ export {
   onColor,
 } from './image/color'
 export { ROLE_DEFAULTS, resolveTextStyle, effectivePriority } from './defaults'
+export { narrate } from './narrate'
+export { parseCreative, CREATIVE_SCHEMA } from './dsl'
+export type { DslIssue, ParseResult } from './dsl'
 
 export * from './types'

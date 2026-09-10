@@ -5,6 +5,17 @@
 import type { AdElement, Creative } from '@engine/types'
 import { CREATIVE_BY_ID, CREATIVES } from '@data/creatives'
 
+export type PlaygroundView = 'wall' | 'scrubber'
+
+export const SCRUB_MIN = 50
+export const SCRUB_MAX = 3840
+
+function clampDim(v: unknown): number {
+  return typeof v === 'number' && Number.isFinite(v)
+    ? Math.max(SCRUB_MIN, Math.min(SCRUB_MAX, Math.round(v)))
+    : 600
+}
+
 export interface PlaygroundState {
   creativeId: string
   /** Per-element text overrides, keyed by element id. */
@@ -14,6 +25,9 @@ export interface PlaygroundState {
   selectedSurface: string
   debug: { safeArea: boolean; boxes: boolean; focal: boolean; baseline: boolean }
   preferCanvas: boolean
+  view: PlaygroundView
+  /** Scrubber dimensions, [w, h]. */
+  scrub: [number, number]
 }
 
 export const DEFAULT_STATE: PlaygroundState = {
@@ -23,6 +37,8 @@ export const DEFAULT_STATE: PlaygroundState = {
   selectedSurface: 'story',
   debug: { safeArea: false, boxes: false, focal: false, baseline: false },
   preferCanvas: true,
+  view: 'wall',
+  scrub: [1080, 1350],
 }
 
 export function encodeState(s: PlaygroundState): string {
@@ -35,6 +51,8 @@ export function encodeState(s: PlaygroundState): string {
       .map((b) => (b ? 1 : 0))
       .join(''),
     m: s.preferCanvas ? 1 : 0,
+    v: s.view === 'scrubber' ? 1 : 0,
+    z: s.scrub,
   }
   return btoa(encodeURIComponent(JSON.stringify(compact)))
 }
@@ -55,6 +73,11 @@ export function decodeState(hash: string): PlaygroundState {
         baseline: d[3] === '1',
       },
       preferCanvas: raw.m ? true : false,
+      view: raw.v ? 'scrubber' : 'wall',
+      scrub:
+        Array.isArray(raw.z) && raw.z.length === 2
+          ? [clampDim(raw.z[0]), clampDim(raw.z[1])]
+          : DEFAULT_STATE.scrub,
     }
   } catch {
     return DEFAULT_STATE
