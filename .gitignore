@@ -29,4 +29,4 @@ coverage
 *.tsbuildinfo
 
 .claude/
-ci.yml.pending
+.env*
