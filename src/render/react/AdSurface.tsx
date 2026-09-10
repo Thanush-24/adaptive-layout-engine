@@ -141,6 +141,13 @@ function PlacementEl({ p, brandColor }: { p: Placement; brandColor: string }) {
     width: p.rect.w,
     height: p.rect.h,
     zIndex: p.z,
+    // Adaptive transition: when the surface resizes or the creative changes,
+    // elements glide to the layout the engine just re-resolved; newly placed
+    // elements fade in.
+    transition:
+      'left 320ms cubic-bezier(.22,1,.36,1), top 320ms cubic-bezier(.22,1,.36,1), ' +
+      'width 320ms cubic-bezier(.22,1,.36,1), height 320ms cubic-bezier(.22,1,.36,1)',
+    animation: 'alesPlace 260ms ease both',
   }
 
   if (p.role === 'background') {
@@ -209,6 +216,7 @@ function PlacementEl({ p, brandColor }: { p: Placement; brandColor: string }) {
             letterSpacing: `${t.letterSpacing}em`,
             textTransform: t.transform,
             whiteSpace: 'nowrap',
+            transition: 'font-size 320ms cubic-bezier(.22,1,.36,1)',
           }}
         >
           {t.lines.join(' ')}
@@ -239,6 +247,7 @@ function PlacementEl({ p, brandColor }: { p: Placement; brandColor: string }) {
           lineHeight: t.lineHeight,
           letterSpacing: `${t.letterSpacing}em`,
           textTransform: t.transform,
+          transition: 'font-size 320ms cubic-bezier(.22,1,.36,1), color 200ms linear',
         }}
       >
         {t.lines.map((l, i) => (

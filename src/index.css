@@ -2,6 +2,22 @@
    One committed look: dark instrument chrome around a light working canvas.
    All colors explicit so it renders identically in any OS theme. */
 
+@keyframes alesPlace {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
 :root {
   color-scheme: light;
   --ink: #0b0d12;
