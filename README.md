@@ -5,7 +5,7 @@ banner, a 1080×1920 story, a 1920×1080 connected‑TV frame, a 3840×1080 DOOH
 — and get back a concrete, renderable layout plus a full explanation of every
 decision the engine made.
 
-**Live playground:** _(Vercel URL — added on deploy)_
+**Live playground:** https://adaptive-layout-engine-omega.vercel.app
 **Repo:** https://github.com/Thanush-24/adaptive-layout-engine
 
 The playground renders one creative across all 17 surfaces at once. Select any
