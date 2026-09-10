@@ -1,0 +1,1394 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SVG render snapshots > d2c-skincare 1`] = `
+"### mobile-banner 320×50
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="50" viewBox="0 0 320 50" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="320" height="50" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#1b1b1b"/><stop offset="100%" stop-color="#3d3522"/></linearGradient>
+<clipPath id="clip-logo"><rect x="8" y="19" width="32" height="12"/></clipPath>
+<clipPath id="clip-headline"><rect x="58" y="6.64" width="107.2" height="36.72"/></clipPath>
+</defs>
+<rect x="0" y="0" width="320" height="50" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="12" font-weight="700" letter-spacing="-0.01em"><tspan x="9" y="31">AURELIA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="17" font-weight="700" letter-spacing="-0.02em"><tspan x="59" y="23.64">The overnight</tspan><tspan x="59" y="42">glow serum</tspan></text>
+</g>
+<g>
+  <rect x="238.04" y="7" width="63.91" height="36" rx="8" fill="#c9a227"/>
+  <text x="269.995" y="25" fill="#0b0b0c" font-size="12" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop now</text>
+</g>
+</svg>
+
+### mpu 300×250
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="250" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#1b1b1b"/><stop offset="100%" stop-color="#3d3522"/></linearGradient>
+<clipPath id="cx-img-product"><rect x="164.89" y="17.13" width="117.98" height="215.74"/></clipPath>
+<clipPath id="clip-logo"><rect x="12" y="12" width="79.74" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="10" y="53.03" width="119.24" height="71.28"/></clipPath>
+<clipPath id="clip-subhead"><rect x="12" y="148.42" width="116.97" height="32.5"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="250" fill="url(#g0)"/>
+<g clip-path="url(#cx-img-product)"><image x="135.57161676646706" y="17.13" width="176.61676646706587" height="215.74" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="13" y="30">AURELIA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="22" font-weight="700" letter-spacing="-0.02em"><tspan x="11" y="75.03">The</tspan><tspan x="11" y="98.79">overnight</tspan><tspan x="11" y="122.55000000000001">glow serum</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="13" font-weight="400" letter-spacing="-0.005em"><tspan x="13" y="161.42">Vitamin C + peptides.</tspan><tspan x="13" y="177.67">Wake up brighter.</tspan></text>
+</g>
+<g>
+  <rect x="11" y="201" width="118.98" height="38" rx="8" fill="#c9a227"/>
+  <text x="70.49000000000001" y="220" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop now</text>
+</g>
+</svg>
+
+### half-page 300×600
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="600" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#1b1b1b"/><stop offset="100%" stop-color="#3d3522"/></linearGradient>
+<clipPath id="clip-logo"><rect x="105.7" y="14" width="88.6" height="20"/></clipPath>
+<clipPath id="clip-headline"><rect x="28.05" y="52.88" width="243.9" height="145.8"/></clipPath>
+<clipPath id="clip-subhead"><rect x="28.53" y="217.7" width="242.95" height="67.5"/></clipPath>
+<clipPath id="cx-img-product"><rect x="21.95" y="313.28" width="256.11" height="182.78"/></clipPath>
+<clipPath id="clip-legal"><rect x="11" y="577" width="254.56" height="12"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="600" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="20" font-weight="700" letter-spacing="-0.01em"><tspan x="106.7" y="34">AURELIA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="45" font-weight="700" letter-spacing="-0.02em"><tspan x="29.05" y="97.88">The</tspan><tspan x="29.05" y="146.48">overnight</tspan><tspan x="29.05" y="195.07999999999998">glow serum</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="27" font-weight="400" letter-spacing="-0.005em"><tspan x="29.53" y="244.7">Vitamin C + peptides.</tspan><tspan x="29.53" y="278.45">Wake up brighter.</tspan></text>
+</g>
+<g clip-path="url(#cx-img-product)"><image x="21.95" y="273.2186301369863" width="256.11" height="312.97945205479454" href="data:…" preserveAspectRatio="none"/></g>
+<g>
+  <rect x="90.51" y="523" width="118.98" height="38" rx="8" fill="#c9a227"/>
+  <text x="150" y="542" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop now</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#ffffff" font-size="10" font-weight="400" letter-spacing="0em"><tspan x="12" y="587">Results from an 8-week consumer study of 112 participants.</tspan></text>
+</g>
+</svg>
+
+### feed-square 1080×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#1b1b1b"/><stop offset="100%" stop-color="#3d3522"/></linearGradient>
+<clipPath id="clip-logo"><rect x="491.27" y="182.24" width="97.46" height="22"/></clipPath>
+<clipPath id="clip-headline"><rect x="133.26" y="279.19" width="813.47" height="278.64"/></clipPath>
+<clipPath id="clip-subhead"><rect x="210.88" y="694.08" width="658.24" height="50"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1080" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  <rect x="491.27" y="182.24" width="97.46" height="22" fill="#000000" opacity="0.6"/>
+  <text fill="#ffffff" font-size="22" font-weight="700" letter-spacing="-0.01em"><tspan x="492.27" y="204.24">AURELIA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="133.26" y="279.19" width="813.47" height="278.64" fill="#000000" opacity="0.31"/>
+  <text fill="#ffffff" font-size="129" font-weight="700" letter-spacing="-0.02em"><tspan x="134.26" y="408.19">The overnight</tspan><tspan x="134.26" y="547.51">glow serum</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  <rect x="210.88" y="694.08" width="658.24" height="50" fill="#000000" opacity="0.54"/>
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="211.88" y="734.08">Vitamin C + peptides. Wake up brighter.</tspan></text>
+</g>
+<g>
+  <rect x="420.58" y="831.96" width="238.84" height="64" rx="8" fill="#c9a227"/>
+  <text x="540" y="863.96" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop now</text>
+</g>
+</svg>
+
+### story 1080×1920
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1920" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#1b1b1b"/><stop offset="100%" stop-color="#3d3522"/></linearGradient>
+<clipPath id="clip-logo"><rect x="451.4" y="100.06" width="177.2" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="123.8" y="257.34" width="832.39" height="285.12"/></clipPath>
+<clipPath id="clip-subhead"><rect x="210.88" y="752.58" width="658.24" height="50"/></clipPath>
+<clipPath id="cx-img-product"><rect x="78.27" y="941.74" width="923.45" height="604.32"/></clipPath>
+<clipPath id="clip-legal"><rect x="49" y="1677.4" width="458.21" height="21.6"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1080" height="1920" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="452.4" y="140.06">AURELIA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="124.8" y="389.34">The overnight</tspan><tspan x="124.8" y="531.9">glow serum</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="211.88" y="792.58">Vitamin C + peptides. Wake up brighter.</tspan></text>
+</g>
+<g clip-path="url(#cx-img-product)"><image x="78.27" y="770.0453457943925" width="923.45" height="1129.570093457944" href="data:…" preserveAspectRatio="none"/></g>
+<g>
+  <rect x="420.58" y="1594.15" width="238.84" height="64" rx="8" fill="#c9a227"/>
+  <text x="540" y="1626.15" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop now</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#ffffff" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="50" y="1695.4">Results from an 8-week consumer study of 112 participants.</tspan></text>
+</g>
+</svg>
+
+### ctv-1080 1920×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1920" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#1b1b1b"/><stop offset="100%" stop-color="#3d3522"/></linearGradient>
+<clipPath id="clip-headline"><rect x="168.26" y="370.4" width="1583.47" height="142.56"/></clipPath>
+<clipPath id="clip-subhead"><rect x="630.88" y="574.24" width="658.24" height="50"/></clipPath>
+<clipPath id="clip-logo"><rect x="96" y="108" width="177.2" height="40"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1920" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-headline)">
+  <rect x="168.26" y="370.4" width="1583.47" height="142.56" fill="#000000" opacity="0.3"/>
+  <text fill="#ffffff" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="169.26" y="502.4">The overnight glow serum</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  <rect x="630.88" y="574.24" width="658.24" height="50" fill="#000000" opacity="0.56"/>
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="631.88" y="614.24">Vitamin C + peptides. Wake up brighter.</tspan></text>
+</g>
+<g>
+  <rect x="840.58" y="665.56" width="238.84" height="64" rx="8" fill="#c9a227"/>
+  <text x="960" y="697.56" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop now</text>
+</g>
+<g clip-path="url(#clip-logo)">
+  <rect x="96" y="108" width="177.2" height="40" fill="#ffffff" opacity="0.18"/>
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="97" y="148">AURELIA</tspan></text>
+</g>
+</svg>
+
+### dooh-ultrawide 3840×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1080" viewBox="0 0 3840 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="3840" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#1b1b1b"/><stop offset="100%" stop-color="#3d3522"/></linearGradient>
+<clipPath id="clip-logo"><rect x="84" y="91.5" width="146.19" height="33"/></clipPath>
+<clipPath id="clip-headline"><rect x="82" y="559.52" width="1583.47" height="142.56"/></clipPath>
+</defs>
+<rect x="0" y="0" width="3840" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="33" font-weight="700" letter-spacing="-0.01em"><tspan x="85" y="124.5">AURELIA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="82" y="559.52" width="1583.47" height="142.56" fill="#000000" opacity="0.27"/>
+  <text fill="#ffffff" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="83" y="691.52">The overnight glow serum</tspan></text>
+</g>
+<g>
+  <rect x="83" y="939" width="211.18" height="58" rx="8" fill="#c9a227"/>
+  <text x="188.59" y="968" fill="#0b0b0c" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop now</text>
+</g>
+</svg>"
+`;
+
+exports[`SVG render snapshots > event-promo 1`] = `
+"### mobile-banner 320×50
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="50" viewBox="0 0 320 50" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="320" height="50" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-headline"><rect x="18" y="6" width="84.14" height="38"/></clipPath>
+</defs>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="700" letter-spacing="-0.02em"><tspan x="19" y="20">SHIFT 2026:</tspan><tspan x="19" y="35.120000000000005">the interface</tspan><tspan x="19" y="50.24">conference</tspan></text>
+</g>
+<g>
+  <rect x="232.69" y="7" width="74.62" height="36" rx="8" fill="#e63946"/>
+  <text x="270" y="25" fill="#0b0b0c" font-size="12" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get tickets</text>
+</g>
+</svg>
+
+### mpu 300×250
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="250" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="250"/></clipPath>
+<clipPath id="clip-badge"><rect x="62.42" y="12" width="175.17" height="14"/></clipPath>
+<clipPath id="clip-headline"><rect x="71.87" y="44" width="156.26" height="84"/></clipPath>
+<clipPath id="clip-subhead"><rect x="15.18" y="155.25" width="269.64" height="17.5"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-16.666666666666668" y="0" width="333.3333333333333" height="250" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="63.42" y="26">MARCH 12–14 · BERLIN</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="26" font-weight="700" letter-spacing="-0.02em"><tspan x="72.87" y="70">SHIFT 2026:</tspan><tspan x="72.87" y="98.08">the interface</tspan><tspan x="72.87" y="126.16">conference</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="400" letter-spacing="-0.005em"><tspan x="16.18" y="169.25">Three days on the craft of building for humans.</tspan></text>
+</g>
+<g>
+  <rect x="86.19" y="201" width="127.62" height="38" rx="8" fill="#e63946"/>
+  <text x="150" y="220" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get tickets</text>
+</g>
+</svg>
+
+### half-page 300×600
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="600" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="600"/></clipPath>
+<clipPath id="clip-badge"><rect x="62.42" y="14" width="175.17" height="14"/></clipPath>
+<clipPath id="clip-headline"><rect x="14.77" y="130.44" width="270.45" height="145.8"/></clipPath>
+<clipPath id="clip-subhead"><rect x="29.44" y="396.21" width="241.12" height="116.25"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-250.4" y="0" width="800" height="600" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="63.42" y="28">MARCH 12–14 · BERLIN</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="45" font-weight="700" letter-spacing="-0.02em"><tspan x="15.77" y="175.44">SHIFT 2026:</tspan><tspan x="15.77" y="224.04">the interface</tspan><tspan x="15.77" y="272.64">conference</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="31" font-weight="400" letter-spacing="-0.005em"><tspan x="30.44" y="427.21">Three days on the</tspan><tspan x="30.44" y="465.96">craft of building for</tspan><tspan x="30.44" y="504.71">humans.</tspan></text>
+</g>
+<g>
+  <rect x="86.19" y="549" width="127.62" height="38" rx="8" fill="#e63946"/>
+  <text x="150" y="568" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get tickets</text>
+</g>
+</svg>
+
+### feed-square 1080×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1080"/></clipPath>
+<clipPath id="clip-badge"><rect x="402.37" y="71.9" width="275.26" height="22"/></clipPath>
+<clipPath id="clip-headline"><rect x="143.34" y="167.5" width="793.32" height="427.68"/></clipPath>
+<clipPath id="clip-subhead"><rect x="154.8" y="769.64" width="770.4" height="50"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-180" y="0" width="1440" height="1080" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="22" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="403.37" y="93.9">MARCH 12–14 · BERLIN</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="144.34" y="299.5">SHIFT 2026:</tspan><tspan x="144.34" y="442.06">the interface</tspan><tspan x="144.34" y="584.62">conference</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="155.8" y="809.64">Three days on the craft of building for humans.</tspan></text>
+</g>
+<g>
+  <rect x="410.02" y="946.2" width="259.96" height="64" rx="8" fill="#e63946"/>
+  <text x="540" y="978.2" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get tickets</text>
+</g>
+</svg>
+
+### story 1080×1920
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1920" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1920"/></clipPath>
+<clipPath id="clip-badge"><rect x="402.37" y="103.9" width="275.26" height="22"/></clipPath>
+<clipPath id="clip-headline"><rect x="143.34" y="416.83" width="793.32" height="427.68"/></clipPath>
+<clipPath id="clip-subhead"><rect x="154.8" y="1344.97" width="770.4" height="50"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-739.6208530805687" y="0" width="2559.2417061611377" height="1920" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="22" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="403.37" y="125.9">MARCH 12–14 · BERLIN</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="144.34" y="548.8299999999999">SHIFT 2026:</tspan><tspan x="144.34" y="691.3899999999999">the interface</tspan><tspan x="144.34" y="833.9499999999999">conference</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="155.8" y="1384.97">Three days on the craft of building for humans.</tspan></text>
+</g>
+<g>
+  <rect x="410.02" y="1630.2" width="259.96" height="64" rx="8" fill="#e63946"/>
+  <text x="540" y="1662.2" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get tickets</text>
+</g>
+</svg>
+
+### ctv-1080 1920×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1920" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1920" height="1080"/></clipPath>
+<clipPath id="clip-headline"><rect x="950.15" y="144.96" width="793.32" height="427.68"/></clipPath>
+<clipPath id="clip-subhead"><rect x="952.15" y="740" width="770.4" height="50"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="0" y="0" width="1920" height="1440" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="951.15" y="276.96000000000004">SHIFT 2026:</tspan><tspan x="951.15" y="419.52000000000004">the interface</tspan><tspan x="951.15" y="562.08">conference</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="953.15" y="780">Three days on the craft of building for humans.</tspan></text>
+</g>
+<g>
+  <rect x="951.15" y="914.2" width="259.96" height="64" rx="8" fill="#e63946"/>
+  <text x="1081.1299999999999" y="946.2" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get tickets</text>
+</g>
+</svg>
+
+### dooh-ultrawide 3840×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1080" viewBox="0 0 3840 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="3840" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-headline"><rect x="82" y="559.52" width="2286.24" height="142.56"/></clipPath>
+</defs>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="83" y="691.52">SHIFT 2026: the interface conference</tspan></text>
+</g>
+<g>
+  <rect x="83" y="939" width="229.42" height="58" rx="8" fill="#e63946"/>
+  <text x="197.70999999999998" y="968" fill="#0b0b0c" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get tickets</text>
+</g>
+</svg>"
+`;
+
+exports[`SVG render snapshots > fintech-card 1`] = `
+"### mobile-banner 320×50
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="50" viewBox="0 0 320 50" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="320" height="50" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-logo"><rect x="8" y="19" width="32" height="12"/></clipPath>
+<clipPath id="clip-headline"><rect x="58" y="6" width="130.14" height="38"/></clipPath>
+<clipPath id="clip-legal"><rect x="4" y="4" width="278.56" height="13"/></clipPath>
+</defs>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="12" font-weight="700" letter-spacing="-0.01em"><tspan x="9" y="31">Ledgerline</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="700" letter-spacing="-0.02em"><tspan x="59" y="20">2% back on</tspan><tspan x="59" y="35.120000000000005">everything. No</tspan><tspan x="59" y="50.24">categories, no caps.</tspan></text>
+</g>
+<g>
+  <rect x="232.16" y="7" width="75.67" height="36" rx="8" fill="#5bc0be"/>
+  <text x="269.995" y="25" fill="#0b0b0c" font-size="12" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get the card</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="11" font-weight="400" letter-spacing="0em"><tspan x="5" y="15">Representative APR 24.9% variable. Credit subject to status.</tspan></text>
+</g>
+</svg>
+
+### mpu 300×250
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="250" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="250"/></clipPath>
+<clipPath id="clip-logo"><rect x="12" y="143.04" width="90.4" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="8" y="13" width="269.95" height="54"/></clipPath>
+<clipPath id="clip-legal"><rect x="8" y="189.54" width="253.24" height="12"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-33.333333333333336" y="0" width="333.3333333333333" height="250" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  <rect x="12" y="143.04" width="90.4" height="18" fill="#000000" opacity="0.53"/>
+  <text fill="#ffffff" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="13" y="161.04">Ledgerline</tspan></text>
+</g>
+<g>
+  <rect x="11" y="204.04" width="136.84" height="38" rx="8" fill="#5bc0be"/>
+  <text x="79.42" y="223.04" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get the card</text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="8" y="13" width="269.95" height="54" fill="#000000" opacity="0.32"/>
+  <text fill="#ffffff" font-size="25" font-weight="700" letter-spacing="-0.02em"><tspan x="9" y="38">2% back on everything.</tspan><tspan x="9" y="65">No categories, no caps.</tspan></text>
+</g>
+<g clip-path="url(#clip-legal)">
+  <rect x="8" y="189.54" width="253.24" height="12" fill="#000000" opacity="0.5"/>
+  <text fill="#ffffff" font-size="10" font-weight="400" letter-spacing="0em"><tspan x="9" y="199.54">Representative APR 24.9% variable. Credit subject to status.</tspan></text>
+</g>
+</svg>
+
+### half-page 300×600
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="600" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="600"/></clipPath>
+<clipPath id="clip-logo"><rect x="14" y="338.8" width="90.4" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="12" y="375.56" width="269.58" height="93.96"/></clipPath>
+<clipPath id="clip-subhead"><rect x="14" y="497.26" width="258.8" height="23.75"/></clipPath>
+<clipPath id="clip-legal"><rect x="10" y="534.5" width="253.24" height="12"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-346.4" y="0" width="800" height="600" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  <rect x="14" y="338.8" width="90.4" height="18" fill="#000000" opacity="0.53"/>
+  <text fill="#ffffff" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="15" y="356.8">Ledgerline</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="12" y="375.56" width="269.58" height="93.96" fill="#000000" opacity="0.2"/>
+  <text fill="#ffffff" font-size="29" font-weight="700" letter-spacing="-0.02em"><tspan x="13" y="404.56">2% back on</tspan><tspan x="13" y="435.88">everything. No</tspan><tspan x="13" y="467.2">categories, no caps.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  <rect x="14" y="497.26" width="258.8" height="23.75" fill="#000000" opacity="0.49"/>
+  <text fill="#ffffff" font-size="19" font-weight="400" letter-spacing="-0.005em"><tspan x="15" y="516.26">Open an account in five minutes.</tspan></text>
+</g>
+<g>
+  <rect x="13" y="549" width="136.84" height="38" rx="8" fill="#5bc0be"/>
+  <text x="81.42" y="568" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get the card</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  <rect x="10" y="534.5" width="253.24" height="12" fill="#000000" opacity="0.48"/>
+  <text fill="#ffffff" font-size="10" font-weight="400" letter-spacing="0em"><tspan x="11" y="544.5">Representative APR 24.9% variable. Credit subject to status.</tspan></text>
+</g>
+</svg>
+
+### feed-square 1080×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1080"/></clipPath>
+<clipPath id="clip-headline"><rect x="75.69" y="344.11" width="928.63" height="185.76"/></clipPath>
+<clipPath id="clip-subhead"><rect x="267.58" y="583.63" width="544.84" height="50"/></clipPath>
+<clipPath id="clip-logo"><rect x="64" y="76" width="200.88" height="40"/></clipPath>
+<clipPath id="clip-legal"><rect x="64" y="1065" width="278.56" height="13"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-352.8" y="0" width="1440" height="1080" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-headline)">
+  <rect x="75.69" y="344.11" width="928.63" height="185.76" fill="#000000" opacity="0.27"/>
+  <text fill="#ffffff" font-size="86" font-weight="700" letter-spacing="-0.02em"><tspan x="76.69" y="430.11">2% back on everything.</tspan><tspan x="76.69" y="522.99">No categories, no caps.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  <rect x="267.58" y="583.63" width="544.84" height="50" fill="#000000" opacity="0.53"/>
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="268.58" y="623.63">Open an account in five minutes.</tspan></text>
+</g>
+<g>
+  <rect x="398.76" y="679.64" width="282.49" height="64" rx="8" fill="#5bc0be"/>
+  <text x="540.005" y="711.64" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get the card</text>
+</g>
+<g clip-path="url(#clip-logo)">
+  <rect x="64" y="76" width="200.88" height="40" fill="#000000" opacity="0.59"/>
+  <text fill="#ffffff" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="65" y="116">Ledgerline</tspan></text>
+</g>
+<g clip-path="url(#clip-legal)">
+  <rect x="64" y="1065" width="278.56" height="13" fill="#000000" opacity="0.46"/>
+  <text fill="#ffffff" font-size="11" font-weight="400" letter-spacing="0em"><tspan x="65" y="1076">Representative APR 24.9% variable. Credit subject to status.</tspan></text>
+</g>
+</svg>
+
+### story 1080×1920
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1920" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1920"/></clipPath>
+<clipPath id="clip-logo"><rect x="439.56" y="100.06" width="200.88" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="61.26" y="233.04" width="957.49" height="333.72"/></clipPath>
+<clipPath id="clip-subhead"><rect x="267.58" y="752.58" width="544.84" height="50"/></clipPath>
+<clipPath id="cx-img-product"><rect x="78.27" y="941.74" width="923.45" height="604.32"/></clipPath>
+<clipPath id="clip-legal"><rect x="49" y="1677.4" width="455.83" height="21.6"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-1046.7298578199052" y="0" width="2559.2417061611377" height="1920" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="440.56" y="140.06">Ledgerline</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="103" font-weight="700" letter-spacing="-0.02em"><tspan x="62.26" y="336.03999999999996">2% back on</tspan><tspan x="62.26" y="447.28">everything. No</tspan><tspan x="62.26" y="558.52">categories, no caps.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="268.58" y="792.58">Open an account in five minutes.</tspan></text>
+</g>
+<g clip-path="url(#cx-img-product)"><image x="78.27" y="770.0453457943925" width="923.45" height="1129.570093457944" href="data:…" preserveAspectRatio="none"/></g>
+<g>
+  <rect x="398.76" y="1594.15" width="282.49" height="64" rx="8" fill="#5bc0be"/>
+  <text x="540.005" y="1626.15" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get the card</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#ffffff" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="50" y="1695.4">Representative APR 24.9% variable. Credit subject to status.</tspan></text>
+</g>
+</svg>
+
+### ctv-1080 1920×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1920" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1920" height="1080"/></clipPath>
+<clipPath id="cx-img-product"><rect x="133.05" y="133.05" width="760.06" height="813.91"/></clipPath>
+<clipPath id="clip-logo"><rect x="952.15" y="100" width="90.4" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="950.15" y="236.71" width="845.94" height="294.84"/></clipPath>
+<clipPath id="clip-subhead"><rect x="952.15" y="746.34" width="544.84" height="50"/></clipPath>
+<clipPath id="clip-legal"><rect x="96" y="1065" width="278.56" height="13"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="0" y="-36" width="1920" height="1440" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#cx-img-product)"><image x="133.05" y="133.05" width="760.06" height="929.12100456621" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="953.15" y="118">Ledgerline</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="91" font-weight="700" letter-spacing="-0.02em"><tspan x="951.15" y="327.71000000000004">2% back on</tspan><tspan x="951.15" y="425.99">everything. No</tspan><tspan x="951.15" y="524.27">categories, no caps.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="953.15" y="786.34">Open an account in five minutes.</tspan></text>
+</g>
+<g>
+  <rect x="951.15" y="914.2" width="282.49" height="64" rx="8" fill="#5bc0be"/>
+  <text x="1092.395" y="946.2" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get the card</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  <rect x="96" y="1065" width="278.56" height="13" fill="#000000" opacity="0.46"/>
+  <text fill="#ffffff" font-size="11" font-weight="400" letter-spacing="0em"><tspan x="97" y="1076">Representative APR 24.9% variable. Credit subject to status.</tspan></text>
+</g>
+</svg>
+
+### dooh-ultrawide 3840×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1080" viewBox="0 0 3840 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="3840" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-logo"><rect x="87.27" y="517.5" width="105.46" height="21"/></clipPath>
+<clipPath id="clip-headline"><rect x="214" y="456.72" width="2832.19" height="142.56"/></clipPath>
+<clipPath id="clip-legal"><rect x="81" y="981" width="379.86" height="18"/></clipPath>
+</defs>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="21" font-weight="700" letter-spacing="-0.01em"><tspan x="88.27" y="538.5">Ledgerline</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="215" y="588.72">2% back on everything. No categories, no caps.</tspan></text>
+</g>
+<g>
+  <rect x="3545.17" y="502.5" width="209.66" height="51" rx="8" fill="#5bc0be"/>
+  <text x="3650" y="528" fill="#0b0b0c" font-size="31" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Get the card</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="15" font-weight="400" letter-spacing="0em"><tspan x="82" y="996">Representative APR 24.9% variable. Credit subject to status.</tspan></text>
+</g>
+</svg>"
+`;
+
+exports[`SVG render snapshots > mobile-game 1`] = `
+"### mobile-banner 320×50
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="50" viewBox="0 0 320 50" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="320" height="50" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#240046"/><stop offset="100%" stop-color="#7209b7"/></linearGradient>
+<clipPath id="clip-logo"><rect x="8" y="13" width="32" height="24"/></clipPath>
+<clipPath id="clip-headline"><rect x="58" y="6.64" width="83.64" height="36.72"/></clipPath>
+</defs>
+<rect x="0" y="0" width="320" height="50" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="12" font-weight="700" letter-spacing="-0.01em"><tspan x="9" y="25">Rift</tspan><tspan x="9" y="37">Racers</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="17" font-weight="700" letter-spacing="-0.02em"><tspan x="59" y="23.64">Drift the</tspan><tspan x="59" y="42">multiverse</tspan></text>
+</g>
+<g>
+  <rect x="233.96" y="7" width="72.07" height="36" rx="8" fill="#7209b7"/>
+  <text x="269.995" y="25" fill="#ffffff" font-size="12" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Install now</text>
+</g>
+</svg>
+
+### mpu 300×250
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="250" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#240046"/><stop offset="100%" stop-color="#7209b7"/></linearGradient>
+<clipPath id="cx-img-product"><rect x="164.89" y="17.13" width="117.98" height="215.74"/></clipPath>
+<clipPath id="clip-logo"><rect x="12" y="12" width="94.28" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="10" y="89" width="123" height="54"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="250" fill="url(#g0)"/>
+<g clip-path="url(#cx-img-product)"><image x="135.57161676646706" y="17.13" width="176.61676646706587" height="215.74" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="13" y="30">Rift Racers</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="25" font-weight="700" letter-spacing="-0.02em"><tspan x="11" y="114">Drift the</tspan><tspan x="11" y="141">multiverse</tspan></text>
+</g>
+<g>
+  <rect x="11" y="202" width="120.64" height="36" rx="8" fill="#7209b7"/>
+  <text x="71.32" y="220" fill="#ffffff" font-size="16" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Install now</text>
+</g>
+</svg>
+
+### half-page 300×600
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="600" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#240046"/><stop offset="100%" stop-color="#7209b7"/></linearGradient>
+<clipPath id="clip-logo"><rect x="97.62" y="14" width="104.76" height="20"/></clipPath>
+<clipPath id="clip-badge"><rect x="94.28" y="54" width="111.44" height="14"/></clipPath>
+<clipPath id="clip-headline"><rect x="14.7" y="117.26" width="270.6" height="118.8"/></clipPath>
+<clipPath id="cx-img-product"><rect x="23.79" y="295.1" width="252.42" height="225.11"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="600" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="20" font-weight="700" letter-spacing="-0.01em"><tspan x="98.62" y="34">Rift Racers</tspan></text>
+</g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="95.28" y="68">FREE TO PLAY</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="55" font-weight="700" letter-spacing="-0.02em"><tspan x="15.7" y="172.26">Drift the</tspan><tspan x="15.7" y="231.66">multiverse</tspan></text>
+</g>
+<g clip-path="url(#cx-img-product)"><image x="23.79" y="278.1396575342466" width="252.42" height="308.36986301369865" href="data:…" preserveAspectRatio="none"/></g>
+<g>
+  <rect x="84.39" y="549" width="131.22" height="38" rx="8" fill="#7209b7"/>
+  <text x="150" y="568" fill="#ffffff" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Install now</text>
+</g>
+</svg>
+
+### feed-square 1080×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#240046"/><stop offset="100%" stop-color="#7209b7"/></linearGradient>
+<clipPath id="clip-logo"><rect x="68" y="601.12" width="94.28" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="66" y="639.2" width="649.44" height="285.12"/></clipPath>
+<clipPath id="clip-badge"><rect x="68" y="77.5" width="103.48" height="13"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1080" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  <rect x="68" y="601.12" width="94.28" height="18" fill="#ffffff" opacity="0.18"/>
+  <text fill="#0b0b0c" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="69" y="619.12">Rift Racers</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="66" y="639.2" width="649.44" height="285.12" fill="#000000" opacity="0.34"/>
+  <text fill="#ffffff" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="67" y="771.2">Drift the</tspan><tspan x="67" y="913.76">multiverse</tspan></text>
+</g>
+<g>
+  <rect x="67" y="946.2" width="268.76" height="64" rx="8" fill="#7209b7"/>
+  <text x="201.38" y="978.2" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Install now</text>
+</g>
+<g clip-path="url(#clip-badge)">
+  <rect x="68" y="77.5" width="103.48" height="13" fill="#ffffff" opacity="0.18"/>
+  <text fill="#0b0b0c" font-size="13" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="69" y="90.5">FREE TO PLAY</tspan></text>
+</g>
+</svg>
+
+### story 1080×1920
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1920" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#240046"/><stop offset="100%" stop-color="#7209b7"/></linearGradient>
+<clipPath id="clip-logo"><rect x="435.24" y="100.06" width="209.52" height="40"/></clipPath>
+<clipPath id="clip-badge"><rect x="452.44" y="164.01" width="175.12" height="22"/></clipPath>
+<clipPath id="clip-headline"><rect x="215.28" y="358.34" width="649.44" height="285.12"/></clipPath>
+<clipPath id="cx-img-product"><rect x="83.86" y="843.75" width="912.28" height="732.79"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1080" height="1920" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="436.24" y="140.06">Rift Racers</tspan></text>
+</g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="22" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="453.44" y="186.01">FREE TO PLAY</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="216.28" y="490.34">Drift the</tspan><tspan x="216.28" y="632.9">multiverse</tspan></text>
+</g>
+<g clip-path="url(#cx-img-product)"><image x="83.86" y="742.2524505327245" width="912.28" height="1115.3576864535767" href="data:…" preserveAspectRatio="none"/></g>
+<g>
+  <rect x="405.62" y="1630.2" width="268.76" height="64" rx="8" fill="#7209b7"/>
+  <text x="540" y="1662.2" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Install now</text>
+</g>
+</svg>
+
+### ctv-1080 1920×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1920" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#240046"/><stop offset="100%" stop-color="#7209b7"/></linearGradient>
+<clipPath id="cx-img-product"><rect x="473.2" y="135.2" width="1311.6" height="809.6"/></clipPath>
+<clipPath id="clip-logo"><rect x="100" y="100" width="115.24" height="22"/></clipPath>
+<clipPath id="clip-headline"><rect x="98" y="449.16" width="309.96" height="136.08"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1920" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#cx-img-product)"><image x="473.2" y="-132.52910891089113" width="1311.6" height="1603.1683168316831" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="22" font-weight="700" letter-spacing="-0.01em"><tspan x="101" y="122">Rift Racers</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="63" font-weight="700" letter-spacing="-0.02em"><tspan x="99" y="512.1600000000001">Drift the</tspan><tspan x="99" y="580.2">multiverse</tspan></text>
+</g>
+<g>
+  <rect x="99" y="914.2" width="268.76" height="64" rx="8" fill="#7209b7"/>
+  <text x="233.38" y="946.2" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Install now</text>
+</g>
+</svg>
+
+### dooh-ultrawide 3840×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1080" viewBox="0 0 3840 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="3840" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#240046"/><stop offset="100%" stop-color="#7209b7"/></linearGradient>
+<clipPath id="clip-logo"><rect x="84" y="94" width="146.66" height="28"/></clipPath>
+<clipPath id="clip-headline"><rect x="82" y="559.52" width="1175.33" height="142.56"/></clipPath>
+</defs>
+<rect x="0" y="0" width="3840" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="28" font-weight="700" letter-spacing="-0.01em"><tspan x="85" y="122">Rift Racers</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="82" y="559.52" width="1175.33" height="142.56" fill="#ffffff" opacity="0.1"/>
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="83" y="691.52">Drift the multiverse</tspan></text>
+</g>
+<g>
+  <rect x="83" y="939" width="237.02" height="58" rx="8" fill="#7209b7"/>
+  <text x="201.51" y="968" fill="#ffffff" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Install now</text>
+</g>
+</svg>"
+`;
+
+exports[`SVG render snapshots > retail-sale 1`] = `
+"### mobile-banner 320×50
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="50" viewBox="0 0 320 50" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="320" height="50" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-logo"><rect x="8" y="19" width="32" height="12"/></clipPath>
+<clipPath id="clip-headline"><rect x="58" y="6.64" width="147.15" height="36.72"/></clipPath>
+</defs>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="12" font-weight="700" letter-spacing="-0.01em"><tspan x="9" y="31">NOVA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="17" font-weight="700" letter-spacing="-0.02em"><tspan x="59" y="23.64">Up to 50% off the</tspan><tspan x="59" y="42">entire summer edit</tspan></text>
+</g>
+<g>
+  <rect x="227.58" y="7" width="84.84" height="36" rx="8" fill="#f72585"/>
+  <text x="270" y="25" fill="#0b0b0c" font-size="12" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop the sale</text>
+</g>
+</svg>
+
+### mpu 300×250
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="250" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="250"/></clipPath>
+<clipPath id="clip-logo"><rect x="122.7" y="12" width="54.6" height="20"/></clipPath>
+<clipPath id="clip-badge"><rect x="96.73" y="52" width="106.54" height="14"/></clipPath>
+<clipPath id="clip-headline"><rect x="72.1" y="84.56" width="155.81" height="38.88"/></clipPath>
+<clipPath id="clip-subhead"><rect x="19.16" y="145.13" width="261.68" height="13.75"/></clipPath>
+<clipPath id="clip-legal"><rect x="9" y="235" width="163.96" height="12"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-33.333333333333336" y="0" width="333.3333333333333" height="250" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="20" font-weight="700" letter-spacing="-0.01em"><tspan x="123.7" y="32">NOVA</tspan></text>
+</g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="97.73" y="66">ENDS SUNDAY</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="18" font-weight="700" letter-spacing="-0.02em"><tspan x="73.1" y="102.56">Up to 50% off the</tspan><tspan x="73.1" y="122">entire summer edit</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="11" font-weight="400" letter-spacing="-0.005em"><tspan x="20.16" y="156.13">New markdowns added daily. Members get an extra 10%.</tspan></text>
+</g>
+<g>
+  <rect x="74.71" y="181" width="150.59" height="38" rx="8" fill="#f72585"/>
+  <text x="150.005" y="200" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop the sale</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="10" font-weight="400" letter-spacing="0em"><tspan x="10" y="245">Selected lines only. See site for terms.</tspan></text>
+</g>
+</svg>
+
+### half-page 300×600
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="600" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="600"/></clipPath>
+<clipPath id="clip-logo"><rect x="122.7" y="14" width="54.6" height="20"/></clipPath>
+<clipPath id="clip-badge"><rect x="96.73" y="54" width="106.54" height="14"/></clipPath>
+<clipPath id="clip-headline"><rect x="15.86" y="146.82" width="268.27" height="149.04"/></clipPath>
+<clipPath id="clip-subhead"><rect x="20.51" y="386.84" width="258.97" height="105"/></clipPath>
+<clipPath id="clip-legal"><rect x="11" y="577" width="163.96" height="12"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-410.40000000000003" y="0" width="800" height="600" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="20" font-weight="700" letter-spacing="-0.01em"><tspan x="123.7" y="34">NOVA</tspan></text>
+</g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="14" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="97.73" y="68">ENDS SUNDAY</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="46" font-weight="700" letter-spacing="-0.02em"><tspan x="16.86" y="192.82">Up to 50%</tspan><tspan x="16.86" y="242.5">off the entire</tspan><tspan x="16.86" y="292.18">summer edit</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="28" font-weight="400" letter-spacing="-0.005em"><tspan x="21.51" y="414.84">New markdowns</tspan><tspan x="21.51" y="449.84">added daily. Members</tspan><tspan x="21.51" y="484.84">get an extra 10%.</tspan></text>
+</g>
+<g>
+  <rect x="74.71" y="523" width="150.59" height="38" rx="8" fill="#f72585"/>
+  <text x="150.005" y="542" fill="#0b0b0c" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop the sale</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="10" font-weight="400" letter-spacing="0em"><tspan x="12" y="587">Selected lines only. See site for terms.</tspan></text>
+</g>
+</svg>
+
+### feed-square 1080×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1080"/></clipPath>
+<clipPath id="clip-logo"><rect x="485.4" y="68.06" width="109.2" height="40"/></clipPath>
+<clipPath id="clip-badge"><rect x="456.29" y="132.01" width="167.42" height="22"/></clipPath>
+<clipPath id="clip-headline"><rect x="155.09" y="195.55" width="769.82" height="427.68"/></clipPath>
+<clipPath id="clip-subhead"><rect x="291.3" y="724.61" width="497.4" height="100"/></clipPath>
+<clipPath id="clip-legal"><rect x="65" y="993.4" width="295.13" height="21.6"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-360" y="0" width="1440" height="1080" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="486.4" y="108.06">NOVA</tspan></text>
+</g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="22" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="457.29" y="154.01">ENDS SUNDAY</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="156.09" y="327.55">Up to 50%</tspan><tspan x="156.09" y="470.11">off the entire</tspan><tspan x="156.09" y="612.6700000000001">summer edit</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="292.3" y="764.61">New markdowns added daily.</tspan><tspan x="292.3" y="814.61">Members get an extra 10%.</tspan></text>
+</g>
+<g>
+  <rect x="381.95" y="910.15" width="316.1" height="64" rx="8" fill="#f72585"/>
+  <text x="540" y="942.15" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop the sale</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="66" y="1011.4">Selected lines only. See site for terms.</tspan></text>
+</g>
+</svg>
+
+### story 1080×1920
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1920" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1920"/></clipPath>
+<clipPath id="clip-logo"><rect x="485.4" y="100.06" width="109.2" height="40"/></clipPath>
+<clipPath id="clip-badge"><rect x="456.29" y="164.01" width="167.42" height="22"/></clipPath>
+<clipPath id="clip-headline"><rect x="155.09" y="444.88" width="769.82" height="427.68"/></clipPath>
+<clipPath id="clip-subhead"><rect x="64.22" y="1324.94" width="951.56" height="50"/></clipPath>
+<clipPath id="clip-legal"><rect x="49" y="1677.4" width="295.13" height="21.6"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-1251.4691943127964" y="0" width="2559.2417061611377" height="1920" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="486.4" y="140.06">NOVA</tspan></text>
+</g>
+<g clip-path="url(#clip-badge)">
+  
+  <text fill="#0b0b0c" font-size="22" font-weight="700" letter-spacing="0.04em" style="text-transform:uppercase"><tspan x="457.29" y="186.01">ENDS SUNDAY</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="156.09" y="576.88">Up to 50%</tspan><tspan x="156.09" y="719.44">off the entire</tspan><tspan x="156.09" y="862">summer edit</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="65.22" y="1364.94">New markdowns added daily. Members get an extra 10%.</tspan></text>
+</g>
+<g>
+  <rect x="381.95" y="1594.15" width="316.1" height="64" rx="8" fill="#f72585"/>
+  <text x="540" y="1626.15" fill="#0b0b0c" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop the sale</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="50" y="1695.4">Selected lines only. See site for terms.</tspan></text>
+</g>
+</svg>
+
+### ctv-1080 1920×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1920" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1920" height="1080"/></clipPath>
+<clipPath id="clip-logo"><rect x="100" y="104" width="109.2" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="98" y="483.76" width="1142.59" height="285.12"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="0" y="-7.2" width="1920" height="1440" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="101" y="144">NOVA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="98" y="483.76" width="1142.59" height="285.12" fill="#ffffff" opacity="0.05"/>
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="99" y="615.76">Up to 50% off the</tspan><tspan x="99" y="758.3199999999999">entire summer edit</tspan></text>
+</g>
+<g>
+  <rect x="99" y="923" width="277.91" height="58" rx="8" fill="#f72585"/>
+  <text x="237.955" y="952" fill="#0b0b0c" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop the sale</text>
+</g>
+</svg>
+
+### dooh-ultrawide 3840×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1080" viewBox="0 0 3840 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="3840" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-logo"><rect x="84" y="88" width="109.2" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="82" y="559.52" width="2181.7" height="142.56"/></clipPath>
+</defs>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="85" y="128">NOVA</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="83" y="691.52">Up to 50% off the entire summer edit</tspan></text>
+</g>
+<g>
+  <rect x="83" y="939" width="277.91" height="58" rx="8" fill="#f72585"/>
+  <text x="221.955" y="968" fill="#0b0b0c" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Shop the sale</text>
+</g>
+</svg>"
+`;
+
+exports[`SVG render snapshots > saas-trial 1`] = `
+"### mobile-banner 320×50
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="50" viewBox="0 0 320 50" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="320" height="50" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#0d1b2a"/><stop offset="100%" stop-color="#1b263b"/></linearGradient>
+<clipPath id="clip-logo"><rect x="8" y="19" width="32" height="12"/></clipPath>
+<clipPath id="clip-headline"><rect x="58" y="7.72" width="142.08" height="34.56"/></clipPath>
+</defs>
+<rect x="0" y="0" width="320" height="50" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="12" font-weight="700" letter-spacing="-0.01em"><tspan x="9" y="31">Cadence</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="16" font-weight="700" letter-spacing="-0.02em"><tspan x="59" y="23.72">Ship your roadmap,</tspan><tspan x="59" y="41">not your Fridays</tspan></text>
+</g>
+<g>
+  <rect x="228.08" y="7" width="83.83" height="36" rx="8" fill="#4361ee"/>
+  <text x="269.995" y="25" fill="#ffffff" font-size="12" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Start free trial</text>
+</g>
+</svg>
+
+### mpu 300×250
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="250" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#0d1b2a"/><stop offset="100%" stop-color="#1b263b"/></linearGradient>
+<clipPath id="clip-logo"><rect x="109.98" y="12" width="80.04" height="20"/></clipPath>
+<clipPath id="clip-headline"><rect x="21.24" y="50.02" width="257.52" height="62.64"/></clipPath>
+<clipPath id="clip-subhead"><rect x="21.01" y="132.71" width="257.97" height="21.25"/></clipPath>
+<clipPath id="clip-legal"><rect x="9" y="229" width="109.96" height="12"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="250" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="20" font-weight="700" letter-spacing="-0.01em"><tspan x="110.98" y="32">Cadence</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="29" font-weight="700" letter-spacing="-0.02em"><tspan x="22.24" y="79.02000000000001">Ship your roadmap,</tspan><tspan x="22.24" y="110.34">not your Fridays</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="17" font-weight="400" letter-spacing="-0.005em"><tspan x="22.01" y="149.71">Planning that keeps itself up to date.</tspan></text>
+</g>
+<g>
+  <rect x="73.16" y="175" width="153.68" height="38" rx="8" fill="#4361ee"/>
+  <text x="150" y="194" fill="#ffffff" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Start free trial</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#ffffff" font-size="10" font-weight="400" letter-spacing="0em"><tspan x="10" y="239">No card required. 14 days.</tspan></text>
+</g>
+</svg>
+
+### half-page 300×600
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="600" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#0d1b2a"/><stop offset="100%" stop-color="#1b263b"/></linearGradient>
+<clipPath id="clip-logo"><rect x="14" y="338.8" width="72.04" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="12" y="390.14" width="266.4" height="64.8"/></clipPath>
+<clipPath id="clip-subhead"><rect x="14" y="498.51" width="257.97" height="21.25"/></clipPath>
+</defs>
+<rect x="0" y="0" width="300" height="600" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  <rect x="14" y="338.8" width="72.04" height="18" fill="#000000" opacity="0.54"/>
+  <text fill="#ffffff" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="15" y="356.8">Cadence</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="12" y="390.14" width="266.4" height="64.8" fill="#000000" opacity="0.22"/>
+  <text fill="#ffffff" font-size="30" font-weight="700" letter-spacing="-0.02em"><tspan x="13" y="420.14">Ship your roadmap,</tspan><tspan x="13" y="452.53999999999996">not your Fridays</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  <rect x="14" y="498.51" width="257.97" height="21.25" fill="#000000" opacity="0.5"/>
+  <text fill="#ffffff" font-size="17" font-weight="400" letter-spacing="-0.005em"><tspan x="15" y="515.51">Planning that keeps itself up to date.</tspan></text>
+</g>
+<g>
+  <rect x="13" y="549" width="153.68" height="38" rx="8" fill="#4361ee"/>
+  <text x="89.84" y="568" fill="#ffffff" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Start free trial</text>
+</g>
+</svg>
+
+### feed-square 1080×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#0d1b2a"/><stop offset="100%" stop-color="#1b263b"/></linearGradient>
+<clipPath id="clip-logo"><rect x="459.96" y="68.06" width="160.08" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="170.23" y="175.31" width="739.54" height="401.76"/></clipPath>
+<clipPath id="clip-subhead"><rect x="236.5" y="741.31" width="607" height="50"/></clipPath>
+<clipPath id="clip-legal"><rect x="65" y="993.4" width="197.93" height="21.6"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1080" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="460.96" y="108.06">Cadence</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="124" font-weight="700" letter-spacing="-0.02em"><tspan x="171.23" y="299.31">Ship your</tspan><tspan x="171.23" y="433.23">roadmap, not</tspan><tspan x="171.23" y="567.1500000000001">your Fridays</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="237.5" y="781.31">Planning that keeps itself up to date.</tspan></text>
+</g>
+<g>
+  <rect x="378.16" y="910.15" width="323.67" height="64" rx="8" fill="#4361ee"/>
+  <text x="539.995" y="942.15" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Start free trial</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#ffffff" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="66" y="1011.4">No card required. 14 days.</tspan></text>
+</g>
+</svg>
+
+### story 1080×1920
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1920" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#0d1b2a"/><stop offset="100%" stop-color="#1b263b"/></linearGradient>
+<clipPath id="clip-logo"><rect x="459.96" y="100.06" width="160.08" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="158.3" y="418.16" width="763.39" height="414.72"/></clipPath>
+<clipPath id="clip-subhead"><rect x="236.5" y="1316.64" width="607" height="50"/></clipPath>
+<clipPath id="clip-legal"><rect x="49" y="1677.4" width="197.93" height="21.6"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1080" height="1920" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="460.96" y="140.06">Cadence</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#ffffff" font-size="128" font-weight="700" letter-spacing="-0.02em"><tspan x="159.3" y="546.1600000000001">Ship your</tspan><tspan x="159.3" y="684.4000000000001">roadmap, not</tspan><tspan x="159.3" y="822.6400000000001">your Fridays</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="237.5" y="1356.64">Planning that keeps itself up to date.</tspan></text>
+</g>
+<g>
+  <rect x="378.16" y="1594.15" width="323.67" height="64" rx="8" fill="#4361ee"/>
+  <text x="539.995" y="1626.15" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Start free trial</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#ffffff" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="50" y="1695.4">No card required. 14 days.</tspan></text>
+</g>
+</svg>
+
+### ctv-1080 1920×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1920" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#0d1b2a"/><stop offset="100%" stop-color="#1b263b"/></linearGradient>
+<clipPath id="clip-headline"><rect x="120.79" y="387.14" width="1678.42" height="109.08"/></clipPath>
+<clipPath id="clip-subhead"><rect x="656.5" y="574.24" width="607" height="50"/></clipPath>
+<clipPath id="clip-logo"><rect x="96" y="108" width="160.08" height="40"/></clipPath>
+</defs>
+<rect x="0" y="0" width="1920" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-headline)">
+  <rect x="120.79" y="387.14" width="1678.42" height="109.08" fill="#000000" opacity="0.29"/>
+  <text fill="#ffffff" font-size="101" font-weight="700" letter-spacing="-0.02em"><tspan x="121.79" y="488.14">Ship your roadmap, not your Fridays</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  <rect x="656.5" y="574.24" width="607" height="50" fill="#000000" opacity="0.55"/>
+  <text fill="#ffffff" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="657.5" y="614.24">Planning that keeps itself up to date.</tspan></text>
+</g>
+<g>
+  <rect x="798.16" y="665.56" width="323.67" height="64" rx="8" fill="#4361ee"/>
+  <text x="959.995" y="697.56" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Start free trial</text>
+</g>
+<g clip-path="url(#clip-logo)">
+  <rect x="96" y="108" width="160.08" height="40" fill="#000000" opacity="0.6"/>
+  <text fill="#ffffff" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="97" y="148">Cadence</tspan></text>
+</g>
+</svg>
+
+### dooh-ultrawide 3840×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1080" viewBox="0 0 3840 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="3840" height="1080" fill="#ffffff"/>
+<defs>
+<linearGradient id="g0" x1="0%" y1="0%" x2="85.4%" y2="85.4%"><stop offset="0%" stop-color="#0d1b2a"/><stop offset="100%" stop-color="#1b263b"/></linearGradient>
+<clipPath id="clip-logo"><rect x="84" y="89.5" width="148.07" height="37"/></clipPath>
+<clipPath id="clip-headline"><rect x="82" y="559.52" width="2193.58" height="142.56"/></clipPath>
+</defs>
+<rect x="0" y="0" width="3840" height="1080" fill="url(#g0)"/>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#ffffff" font-size="37" font-weight="700" letter-spacing="-0.01em"><tspan x="85" y="126.5">Cadence</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  <rect x="82" y="559.52" width="2193.58" height="142.56" fill="#000000" opacity="0.25"/>
+  <text fill="#ffffff" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="83" y="691.52">Ship your roadmap, not your Fridays</tspan></text>
+</g>
+<g>
+  <rect x="83" y="939" width="284.44" height="58" rx="8" fill="#4361ee"/>
+  <text x="225.22" y="968" fill="#ffffff" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Start free trial</text>
+</g>
+</svg>"
+`;
+
+exports[`SVG render snapshots > travel-getaway 1`] = `
+"### mobile-banner 320×50
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="50" viewBox="0 0 320 50" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="320" height="50" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-logo"><rect x="8" y="19" width="32" height="12"/></clipPath>
+<clipPath id="clip-headline"><rect x="58" y="8.8" width="145.86" height="32.4"/></clipPath>
+</defs>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="12" font-weight="700" letter-spacing="-0.01em"><tspan x="9" y="31">Farsight</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="15" font-weight="700" letter-spacing="-0.02em"><tspan x="59" y="23.8">Escape the grey. Sun</tspan><tspan x="59" y="40">from £199 return.</tspan></text>
+</g>
+<g>
+  <rect x="233.96" y="7" width="72.07" height="36" rx="8" fill="#0077b6"/>
+  <text x="269.995" y="25" fill="#ffffff" font-size="12" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Find flights</text>
+</g>
+</svg>
+
+### mpu 300×250
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="250" viewBox="0 0 300 250" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="250" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="250"/></clipPath>
+<clipPath id="clip-logo"><rect x="110.82" y="12" width="78.36" height="20"/></clipPath>
+<clipPath id="clip-headline"><rect x="13.86" y="51.1" width="272.27" height="60.48"/></clipPath>
+<clipPath id="clip-subhead"><rect x="22.1" y="133.33" width="255.79" height="20"/></clipPath>
+<clipPath id="clip-legal"><rect x="9" y="229" width="269.96" height="12"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="0" y="0" width="333.3333333333333" height="250" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="20" font-weight="700" letter-spacing="-0.01em"><tspan x="111.82" y="32">Farsight</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="28" font-weight="700" letter-spacing="-0.02em"><tspan x="14.86" y="79.1">Escape the grey. Sun</tspan><tspan x="14.86" y="109.34">from £199 return.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="16" font-weight="400" letter-spacing="-0.005em"><tspan x="23.1" y="149.33">Flexible dates across 40 destinations.</tspan></text>
+</g>
+<g>
+  <rect x="83.13" y="175" width="133.74" height="38" rx="8" fill="#0077b6"/>
+  <text x="150" y="194" fill="#ffffff" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Find flights</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="10" font-weight="400" letter-spacing="0em"><tspan x="10" y="239">Price per person based on two travelling. Subject to availability.</tspan></text>
+</g>
+</svg>
+
+### half-page 300×600
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="600" viewBox="0 0 300 600" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="300" height="600" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="300" height="600"/></clipPath>
+<clipPath id="clip-logo"><rect x="14" y="338.8" width="70.52" height="18"/></clipPath>
+<clipPath id="clip-headline"><rect x="12" y="375.56" width="222.72" height="93.96"/></clipPath>
+<clipPath id="clip-subhead"><rect x="14" y="499.14" width="255.79" height="20"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-106.4" y="0" width="800" height="600" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="18" font-weight="700" letter-spacing="-0.01em"><tspan x="15" y="356.8">Farsight</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="29" font-weight="700" letter-spacing="-0.02em"><tspan x="13" y="404.56">Escape the grey.</tspan><tspan x="13" y="435.88">Sun from £199</tspan><tspan x="13" y="467.2">return.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="16" font-weight="400" letter-spacing="-0.005em"><tspan x="15" y="515.14">Flexible dates across 40 destinations.</tspan></text>
+</g>
+<g>
+  <rect x="13" y="549" width="133.74" height="38" rx="8" fill="#0077b6"/>
+  <text x="79.87" y="568" fill="#ffffff" font-size="18" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Find flights</text>
+</g>
+</svg>
+
+### feed-square 1080×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1080"/></clipPath>
+<clipPath id="clip-logo"><rect x="461.64" y="68.06" width="156.72" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="90.72" y="186.65" width="898.56" height="379.08"/></clipPath>
+<clipPath id="clip-subhead"><rect x="220.26" y="741.31" width="639.48" height="50"/></clipPath>
+<clipPath id="clip-legal"><rect x="65" y="993.4" width="485.93" height="21.6"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="0" y="0" width="1440" height="1080" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="462.64" y="108.06">Farsight</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="117" font-weight="700" letter-spacing="-0.02em"><tspan x="91.72" y="303.65">Escape the grey.</tspan><tspan x="91.72" y="430.01">Sun from £199</tspan><tspan x="91.72" y="556.37">return.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="221.26" y="781.31">Flexible dates across 40 destinations.</tspan></text>
+</g>
+<g>
+  <rect x="402.54" y="910.15" width="274.92" height="64" rx="8" fill="#0077b6"/>
+  <text x="540" y="942.15" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Find flights</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="66" y="1011.4">Price per person based on two travelling. Subject to availability.</tspan></text>
+</g>
+</svg>
+
+### story 1080×1920
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1920" viewBox="0 0 1080 1920" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1080" height="1920" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1080" height="1920"/></clipPath>
+<clipPath id="clip-logo"><rect x="461.64" y="100.06" width="156.72" height="40"/></clipPath>
+<clipPath id="clip-headline"><rect x="75.36" y="429.5" width="929.28" height="392.04"/></clipPath>
+<clipPath id="clip-subhead"><rect x="220.26" y="1316.64" width="639.48" height="50"/></clipPath>
+<clipPath id="clip-legal"><rect x="49" y="1677.4" width="485.93" height="21.6"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="-278.957345971564" y="0" width="2559.2417061611377" height="1920" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="700" letter-spacing="-0.01em"><tspan x="462.64" y="140.06">Farsight</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="121" font-weight="700" letter-spacing="-0.02em"><tspan x="76.36" y="550.5">Escape the grey.</tspan><tspan x="76.36" y="681.1800000000001">Sun from £199</tspan><tspan x="76.36" y="811.86">return.</tspan></text>
+</g>
+<g clip-path="url(#clip-subhead)">
+  
+  <text fill="#0b0b0c" font-size="40" font-weight="400" letter-spacing="-0.005em"><tspan x="221.26" y="1356.64">Flexible dates across 40 destinations.</tspan></text>
+</g>
+<g>
+  <rect x="402.54" y="1594.15" width="274.92" height="64" rx="8" fill="#0077b6"/>
+  <text x="540" y="1626.15" fill="#ffffff" font-size="44" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Find flights</text>
+</g>
+<g clip-path="url(#clip-legal)">
+  
+  <text fill="#0b0b0c" font-size="18" font-weight="400" letter-spacing="0em"><tspan x="50" y="1695.4">Price per person based on two travelling. Subject to availability.</tspan></text>
+</g>
+</svg>
+
+### ctv-1080 1920×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="1920" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="cx-bg-bg"><rect x="0" y="0" width="1920" height="1080"/></clipPath>
+<clipPath id="clip-logo"><rect x="100" y="105" width="148.88" height="38"/></clipPath>
+<clipPath id="clip-headline"><rect x="98" y="483.76" width="1316.57" height="285.12"/></clipPath>
+</defs>
+<g clip-path="url(#cx-bg-bg)"><image x="0" y="-180" width="1920" height="1440" href="data:…" preserveAspectRatio="none"/></g>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="38" font-weight="700" letter-spacing="-0.01em"><tspan x="101" y="143">Farsight</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="99" y="615.76">Escape the grey.</tspan><tspan x="99" y="758.3199999999999">Sun from £199 return.</tspan></text>
+</g>
+<g>
+  <rect x="99" y="923" width="242.34" height="58" rx="8" fill="#0077b6"/>
+  <text x="220.17000000000002" y="952" fill="#ffffff" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Find flights</text>
+</g>
+</svg>
+
+### dooh-ultrawide 3840×1080
+<svg xmlns="http://www.w3.org/2000/svg" width="3840" height="1080" viewBox="0 0 3840 1080" font-family="system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,sans-serif">
+<rect width="3840" height="1080" fill="#ffffff"/>
+<defs>
+<clipPath id="clip-logo"><rect x="84" y="89" width="148.88" height="38"/></clipPath>
+<clipPath id="clip-headline"><rect x="82" y="559.52" width="2365.97" height="142.56"/></clipPath>
+</defs>
+<g clip-path="url(#clip-logo)">
+  
+  <text fill="#0b0b0c" font-size="38" font-weight="700" letter-spacing="-0.01em"><tspan x="85" y="127">Farsight</tspan></text>
+</g>
+<g clip-path="url(#clip-headline)">
+  
+  <text fill="#0b0b0c" font-size="132" font-weight="700" letter-spacing="-0.02em"><tspan x="83" y="691.52">Escape the grey. Sun from £199 return.</tspan></text>
+</g>
+<g>
+  <rect x="83" y="939" width="242.34" height="58" rx="8" fill="#0077b6"/>
+  <text x="204.17000000000002" y="968" fill="#ffffff" font-size="38" font-weight="600" letter-spacing="0.01em" text-anchor="middle" dominant-baseline="central">Find flights</text>
+</g>
+</svg>"
+`;

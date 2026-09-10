@@ -18,10 +18,12 @@
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
     "bench": "vitest run perf.test --disable-console-intercept",
+    "test:visual": "playwright test",
+    "test:visual:update": "playwright test --update-snapshots",
     "typecheck": "tsc -b && tsc -p tsconfig.cli.json --noEmit",
     "lint": "oxlint --deny-warnings",
-    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"bin/**/*.ts\" \"*.{ts,json,md}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"bin/**/*.ts\""
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"bin/**/*.ts\" \"tests/**/*.ts\" \"*.{ts,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"bin/**/*.ts\" \"tests/**/*.ts\""
   },
   "dependencies": {
     "html-to-image": "^1.11.13",
@@ -29,6 +31,7 @@
     "react-dom": "^19.2.8"
   },
   "devDependencies": {
+    "@playwright/test": "1.56.0",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",

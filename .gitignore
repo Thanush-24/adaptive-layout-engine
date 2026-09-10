@@ -30,3 +30,11 @@ coverage
 
 .claude/
 .env*
+
+# playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/ads/
+public/_preview/
