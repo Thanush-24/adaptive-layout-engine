@@ -37,7 +37,11 @@ const RULE_PHRASE: Record<string, (r: RuleScore) => string> = {
       ? `the CTA reads as a button (${r.detail})`
       : `the CTA is under-scaled (${r.detail})`,
   'focal-preservation': (r) =>
-    r.score >= 0.8 ? 'imagery keeps its focal point' : `imagery is cropped hard (${r.detail})`,
+    r.detail === 'no imagery'
+      ? 'no imagery to preserve'
+      : r.score >= 0.8
+        ? 'imagery keeps its focal point'
+        : `imagery is cropped hard (${r.detail})`,
   'whitespace-balance': (r) => `ink coverage is ${r.detail}`,
   completeness: (r) => r.detail ?? '',
   hierarchy: (r) => (r.score >= 0.99 ? 'the type hierarchy is clear' : (r.detail ?? '')),
@@ -74,10 +78,12 @@ export function narrate(layout: ResolvedLayout): string[] {
   }
 
   // 3) the rubric highlights — best and worst rule
-  const rs = [...layout.ruleScores].sort((a, b) => a.score - b.score)
+  const rs = [...layout.ruleScores]
+    .filter((r) => !(r.rule === 'focal-preservation' && r.detail === 'no imagery'))
+    .sort((a, b) => a.score - b.score)
   const worst = rs[0]
   const best = rs[rs.length - 1]
-  if (worst && worst.score < 0.75) {
+  if (worst && worst.score < 0.7) {
     out.push(
       `Weakest rule: **${worst.rule}** at ${pct(worst.score)} — ${RULE_PHRASE[worst.rule]?.(worst) ?? worst.detail}.`,
     )

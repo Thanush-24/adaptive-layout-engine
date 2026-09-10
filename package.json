@@ -4,19 +4,24 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Adaptive Layout Engine for Multi-Surface Ads — author one creative, resolve it onto any surface via a candidate-generation + scoring optimizer.",
+  "bin": {
+    "ale": "dist/ale.mjs"
+  },
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && npm run build:cli",
+    "build:cli": "vite build --config vite.cli.config.ts",
     "preview": "vite preview",
+    "ale": "npm run build:cli --silent && node dist/ale.mjs",
     "test": "vitest run",
     "test:watch": "vitest",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
     "bench": "vitest run perf.test --disable-console-intercept",
-    "typecheck": "tsc -b",
+    "typecheck": "tsc -b && tsc -p tsconfig.cli.json --noEmit",
     "lint": "oxlint --deny-warnings",
-    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"*.{ts,json,md}\"",
-    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\""
+    "format": "prettier --write \"src/**/*.{ts,tsx,css}\" \"bin/**/*.ts\" \"*.{ts,json,md}\"",
+    "format:check": "prettier --check \"src/**/*.{ts,tsx,css}\" \"bin/**/*.ts\""
   },
   "dependencies": {
     "html-to-image": "^1.11.13",

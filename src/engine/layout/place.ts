@@ -275,15 +275,23 @@ function carveFallbackRegion(
   frame: Rect,
   placed: Placement[],
 ): Region {
-  void placed
   // Prefer the safe budget, but never let it collapse below a usable size —
   // fall back toward the full frame for pathologically small budgets.
   const w = Math.max(budget.w, Math.min(frame.w, 48))
   const x = Math.min(budget.x, frame.w - w)
 
   if (el.role === 'legal') {
-    const h = Math.max(Math.min(budget.h * 0.18, 26), 10)
-    const y = Math.min(budget.y + budget.h - h, frame.h - h)
+    // A single-line strip pinned to the bottom edge, slid up just past whatever
+    // already occupies the bottom so the forced placement grazes rather than
+    // buries it.
+    const h = 13
+    const occupiedBottom = Math.min(
+      ...placed
+        .filter((p) => p.role !== 'background' && p.rect.y + p.rect.h > frame.h - 60)
+        .map((p) => p.rect.y),
+      frame.h,
+    )
+    const y = Math.min(frame.h - h, Math.max(budget.y, occupiedBottom - h - 2))
     return { accepts: [el.role], rect: rect(x, y, w, h), overlay: true, align: 'start' }
   }
   const h = Math.max(Math.min(budget.h * 0.5, el.role === 'cta' ? 48 : 64), 14)

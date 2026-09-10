@@ -1,0 +1,14 @@
+{
+  "id": "aurelia-serum",
+  "name": "Aurelia — Overnight Glow Serum",
+  "vertical": "beauty",
+  "brandColor": "#c9a227",
+  "elements": [
+    { "id": "bg", "role": "background", "kind": "shape", "content": "linear-gradient(150deg, #1b1b1b, #3d3522)", "priority": 16, "image": { "aspect": 1, "luminance": 0.13 } },
+    { "id": "logo", "role": "logo", "kind": "text", "content": "AURELIA", "priority": 82, "required": true },
+    { "id": "headline", "role": "headline", "kind": "text", "content": "The overnight glow serum", "priority": 100, "required": true },
+    { "id": "subhead", "role": "subhead", "kind": "text", "content": "Vitamin C + peptides. Wake up brighter.", "priority": 54 },
+    { "id": "cta", "role": "cta", "kind": "text", "content": "Shop now", "priority": 90, "required": true },
+    { "id": "legal", "role": "legal", "kind": "text", "content": "From an 8-week study of 112 participants.", "priority": 24 }
+  ]
+}

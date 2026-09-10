@@ -3,8 +3,9 @@ import { describe, expect, it } from 'vitest'
 import { renderToStaticMarkup } from 'react-dom/server'
 import { AdSurface } from './react/AdSurface'
 import { renderToHtml } from './html'
+import { renderToSvg } from './svg'
 import { resolveLayout } from '@engine/resolve'
-import { SURFACE_BY_ID } from '@engine/surfaces'
+import { SURFACES, SURFACE_BY_ID } from '@engine/surfaces'
 import { CREATIVES } from '@data/creatives'
 
 const creative = CREATIVES[0]
@@ -55,5 +56,40 @@ describe('renderToHtml (framework-agnostic)', () => {
     }
     const out = renderToHtml(resolveLayout(evil, surface), { brandColor: '#000' })
     expect(out).not.toContain('<script>alert(1)</script>')
+  })
+})
+
+describe('renderToSvg', () => {
+  it('produces well-formed, parseable SVG for every creative × a sample of surfaces', () => {
+    const sample = SURFACES.filter((_, i) => i % 3 === 0)
+    for (const c of CREATIVES) {
+      for (const s of sample) {
+        const svg = renderToSvg(resolveLayout(c, s), { brandColor: c.brandColor })
+        const doc = new DOMParser().parseFromString(svg, 'image/svg+xml')
+        expect(doc.querySelector('parsererror')).toBeNull()
+        const root = doc.documentElement
+        expect(root.getAttribute('width')).toBe(String(s.w))
+        expect(root.getAttribute('viewBox')).toBe(`0 0 ${s.w} ${s.h}`)
+      }
+    }
+  })
+
+  it('emits a standalone document with an XML prolog when asked', () => {
+    const svg = renderToSvg(resolveLayout(creative, surface), { standalone: true })
+    expect(svg.startsWith('<?xml')).toBe(true)
+  })
+
+  it('escapes content in text and attributes', () => {
+    const evil = {
+      ...creative,
+      elements: creative.elements.map((e) =>
+        e.role === 'headline' ? { ...e, content: '</text><script/>' } : e,
+      ),
+    }
+    const svg = renderToSvg(resolveLayout(evil, surface))
+    expect(svg).not.toContain('</text><script/>')
+    expect(
+      new DOMParser().parseFromString(svg, 'image/svg+xml').querySelector('parsererror'),
+    ).toBeNull()
   })
 })

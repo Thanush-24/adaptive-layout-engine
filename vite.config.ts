@@ -8,7 +8,7 @@ export default defineConfig({
   resolve: { tsconfigPaths: true },
   test: {
     environment: 'node',
-    include: ['src/**/*.{test,spec}.{ts,tsx}'],
+    include: ['src/**/*.{test,spec}.{ts,tsx}', 'bin/**/*.{test,spec}.ts'],
     coverage: {
       provider: 'v8',
       include: ['src/engine/**', 'src/render/**'],

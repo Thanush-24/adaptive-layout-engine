@@ -3,7 +3,7 @@
  * string. Crisp at any scale, no runtime, and the natural target for the CLI's
  * file exports. Reads only `ResolvedLayout`.
  */
-import type { Placement, ResolvedLayout } from '@engine/types'
+import type { Placement, ResolvedLayout } from '../engine/types'
 
 const esc = (s: string): string => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`)
 

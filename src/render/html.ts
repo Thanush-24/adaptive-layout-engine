@@ -5,7 +5,7 @@
  * resolved ad can be exported, server-rendered, or dropped into an email without
  * any runtime. No engine internals leak in — this only reads `ResolvedLayout`.
  */
-import type { Placement, ResolvedLayout } from '@engine/types'
+import type { Placement, ResolvedLayout } from '../engine/types'
 
 const esc = (s: string): string => s.replace(/[&<>"']/g, (c) => `&#${c.charCodeAt(0)};`)
 

@@ -154,13 +154,18 @@ export function fitText(input: FitInput): FitResult {
   const lo = Math.max(1, Math.floor(style.minPx))
   const hi = Math.max(lo, Math.floor(style.maxPx))
 
+  // Fit to slightly less than the true box: font metrics (especially the table
+  // backend) can under-estimate a real browser's rendering by a percent or two,
+  // and this keeps text off the edge rather than one glyph past it.
+  const safeW = boxW * 0.98
+
   const evaluate = (px: number): { ok: boolean; lines: string[]; w: number; h: number } => {
-    const maxEm = boxW / px
+    const maxEm = safeW / px
     const lines = balance(words, maxEm, style.maxLines, fs, preferCanvas)
     const widestEm = Math.max(...lines.map((l) => measureEm(l, fs, preferCanvas)), 0)
     const w = widestEm * px
     const h = lines.length * px * lh
-    const ok = lines.length <= style.maxLines && w <= boxW + 0.5 && h <= boxH + 0.5
+    const ok = lines.length <= style.maxLines && w <= safeW + 0.5 && h <= boxH + 0.5
     return { ok, lines, w, h }
   }
 
