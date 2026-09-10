@@ -48,7 +48,7 @@ function elementHtml(p: Placement, brandColor: string): string {
 
   const align = 'left'
   const lines = t.lines.map((l) => esc(l)).join('<br/>')
-  return `<div style="${base}z-index:${p.z}">
+  return `<div style="${base}z-index:${p.z};overflow:hidden">
     ${scrim}
     <div style="position:relative;color:${c?.fg ?? '#111'};font:${weight(t.weight)} ${t.fontPx}px/${t.lineHeight} ${FONT};letter-spacing:${t.letterSpacing}em;text-transform:${t.transform};text-align:${align}">${lines}</div>
   </div>`

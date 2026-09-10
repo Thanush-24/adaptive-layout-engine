@@ -42,10 +42,16 @@ const RULES: Rule[] = [
         const ratio = clamp01(fp / floor)
         if (ratio < 1) offenders.push(`${t.role} ${fp}px`)
         worst = Math.min(worst, ratio < 1 ? ratio * 0.5 : 1)
+        // Text that overflows its box even at the floor size is worse than
+        // small text — it will render clipped or spilling.
+        if (t.text!.clipped) {
+          offenders.push(`${t.role} clipped`)
+          worst = Math.min(worst, t.role === 'legal' ? 0.55 : 0.3)
+        }
       }
       return {
         score: worst,
-        detail: offenders.length ? `below ${min}px: ${offenders.join(', ')}` : 'all legible',
+        detail: offenders.length ? offenders.join(', ') : 'all legible',
       }
     },
   },

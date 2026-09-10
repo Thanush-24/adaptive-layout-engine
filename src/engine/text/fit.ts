@@ -210,5 +210,6 @@ export function toResolvedText(fit: FitResult, style: FitInput['style']): Resolv
     letterSpacing: style.letterSpacing,
     weight: style.weight as Weight,
     transform: style.transform,
+    clipped: fit.clipped,
   }
 }

@@ -142,6 +142,8 @@ export interface ResolvedText {
   letterSpacing: number
   weight: Weight
   transform: 'none' | 'uppercase'
+  /** True when the text could not fit its box even at the minimum size. */
+  clipped: boolean
 }
 
 export interface ResolvedImage {

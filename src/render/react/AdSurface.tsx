@@ -226,7 +226,7 @@ function PlacementEl({ p, brandColor }: { p: Placement; brandColor: string }) {
   }
 
   return (
-    <div style={base}>
+    <div style={{ ...base, overflow: 'hidden' }}>
       {c?.scrim && (
         <div
           style={{

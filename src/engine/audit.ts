@@ -43,6 +43,14 @@ export function audit(
 
     if (p.text) {
       const floor = p.role === 'legal' ? Math.max(9, min - 3) : min
+      if (p.text.clipped) {
+        warnings.push({
+          code: 'sub-legible',
+          elementId: p.id,
+          severity: p.role === 'legal' ? 'info' : 'warn',
+          message: `${p.role} text does not fit its box even at ${p.text.fontPx}px — it will render clipped. Consider a shorter string for this surface.`,
+        })
+      }
       if (p.text.fontPx < floor) {
         warnings.push({
           code: 'sub-legible',

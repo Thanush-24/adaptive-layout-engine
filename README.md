@@ -8,6 +8,8 @@ decision the engine made.
 **Live playground:** https://adaptive-layout-engine-omega.vercel.app
 **Repo:** https://github.com/Thanush-24/adaptive-layout-engine
 
+![The playground: one creative resolved across every surface, with the scoring inspector open](docs/playground.png)
+
 The playground renders one creative across all 17 surfaces at once. Select any
 card to open the inspector: the composite score, the ten‑rule breakdown, every
 candidate layout the optimiser considered, the degradation log, and the audit

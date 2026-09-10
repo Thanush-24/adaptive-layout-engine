@@ -5,7 +5,7 @@
  * elements or measure text — they only carve space and declare intent. The
  * optimizer places every candidate and scores the results.
  */
-import { alignIn, inset, rect } from '../geometry'
+import { alignIn, clamp, inset, rect } from '../geometry'
 import { MIN_LEGIBLE_PX } from '../surfaces'
 import type { Archetype, ElementRole, LayoutCandidate, Rect, Region, Surface } from '../types'
 import { cols, rows } from './partition'
@@ -21,10 +21,15 @@ export interface StrategyContext {
   surface: Surface
 }
 
-/** Minimum height a single-line control (CTA / logo) needs to stay legible. */
+/**
+ * Height band for a single-line control (CTA button). Must clear the legibility
+ * floor, a 44px touch target, *and* scale with the surface so a CTA doesn't read
+ * as a hairline on a large portrait or CTV frame.
+ */
 export function ctrlBand(ctx: StrategyContext): { min: number; max: number } {
   const legible = MIN_LEGIBLE_PX[ctx.surface.viewingDistance]
-  const min = Math.max(44, legible * 2.2)
+  const short = Math.min(ctx.surface.w, ctx.surface.h)
+  const min = clamp(short * 0.07, Math.max(44, legible * 2.2), short * 0.16)
   return { min, max: min * 1.5 }
 }
 
