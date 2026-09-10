@@ -103,10 +103,14 @@ centred/left‑aligned).
 
 ### `score/rubric.ts` — the rubric
 
-Ten rules, each returning `0..1` with a fixed weight. Legibility (3), containment
-(2.6) and safe‑area (2.4) dominate so a cosmetic win can't outvote a hard
-failure. `completeness` collapses to ~0 if a required element is unplaced. The
-weighted mean is the composite score.
+Eleven rules, each returning `0..1` with a fixed weight. Legibility (3),
+no‑collision (3), containment (2.6) and safe‑area (2.4) dominate so a cosmetic win
+can't outvote a hard failure — and a single badly overlapping text pair floors
+`no-collision` at 0.15 outright. `completeness` collapses to ~0 if a required
+element is unplaced. `headline-impact` scores the headline size against a target
+derived from the surface's short edge, so the optimiser prefers shedding a
+low‑priority element over shrinking the headline into timidity. The weighted mean
+is the composite score.
 
 ### `resolve.ts` — the orchestrator
 

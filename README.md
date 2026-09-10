@@ -34,24 +34,24 @@ classify surface → generate many candidate layouts → place + score every one
 Six strategies (`strip`, `stack`, `split`, `hero-overlay`, `sidebar`, `poster`)
 each propose one or more candidate region maps. Every candidate is fully placed —
 real font metrics, focal‑point‑aware image crops, contrast‑aware colour — and
-graded against a ten‑rule rubric (legibility, safe‑area, containment, collisions,
-completeness, hierarchy, CTA prominence, brand visibility, focal preservation,
-whitespace balance). The highest weighted score wins, and the whole tournament is
-returned in `layout.trace` so you can see _why_.
+graded against an eleven‑rule rubric (legibility, safe‑area, containment,
+collisions, completeness, hierarchy, headline impact, CTA prominence, brand
+visibility, focal preservation, whitespace balance). The highest weighted score
+wins, and the whole tournament is returned in `layout.trace` so you can see _why_.
 
 ### How this compares to a template‑selection engine
 
-|                  | Template selection                | This engine                                                        |
-| ---------------- | --------------------------------- | ----------------------------------------------------------------- |
-| Layout choice    | 1 template picked by aspect ratio | N candidates generated, scored, best selected                     |
-| Explains itself  | warnings list                     | every candidate + per‑rule score breakdown + drop log            |
-| Type fitting     | binary‑search font size           | binary‑search **+** line‑break balancing **+** legibility floor  |
-| Imagery          | focal point stored                | focal‑aware crop → CSS `object-position`, + auto colour / scrim  |
-| Degradation      | drop lowest priority              | drop only when it _measurably raises the score_, each step traced |
-| Viewing distance | —                                 | near / mid / far drives the minimum legible px                    |
-| Output           | in‑app render                     | React **+** framework‑agnostic HTML string **+** PNG / HTML export |
+|                  | Template selection                | This engine                                                         |
+| ---------------- | --------------------------------- | ------------------------------------------------------------------- |
+| Layout choice    | 1 template picked by aspect ratio | N candidates generated, scored, best selected                       |
+| Explains itself  | warnings list                     | every candidate + per‑rule score breakdown + drop log               |
+| Type fitting     | binary‑search font size           | binary‑search **+** line‑break balancing **+** legibility floor     |
+| Imagery          | focal point stored                | focal‑aware crop → CSS `object-position`, + auto colour / scrim     |
+| Degradation      | drop lowest priority              | drop only when it _measurably raises the score_, each step traced   |
+| Viewing distance | —                                 | near / mid / far drives the minimum legible px                      |
+| Output           | in‑app render                     | React **+** framework‑agnostic HTML string **+** PNG / HTML export  |
 | Playground       | one surface, sliders              | all 17 surfaces at once, drag‑resize, debug overlays, shareable URL |
-| Tests            | a unit suite                      | creative×surface golden matrix + property tests + CI + benchmark  |
+| Tests            | a unit suite                      | creative×surface golden matrix + property tests + CI + benchmark    |
 
 ---
 
@@ -133,7 +133,7 @@ src/engine/                 framework-agnostic — no React, no DOM
   layout/strategies.ts      strip · stack · split · hero-overlay · sidebar · poster
   layout/candidates.ts      enumerate applicable strategies → LayoutCandidate[]
   layout/place.ts           place elements into regions; fit type & imagery
-  score/rubric.ts           10 weighted rules → composite score
+  score/rubric.ts           11 weighted rules → composite score
   degrade.ts                priority-ordered shed policy
   audit.ts                  post-hoc warnings
   resolve.ts                the orchestrator (public entry point)

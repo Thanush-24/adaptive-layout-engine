@@ -6,7 +6,7 @@
  * cosmetic wins.
  */
 import { MIN_LEGIBLE_PX } from '../surfaces'
-import { area, breach, inset, overlapArea, rect } from '../geometry'
+import { area, breach, clamp, inset, overlapArea, rect } from '../geometry'
 import type { Creative, LayoutCandidate, Placement, RuleScore, Surface } from '../types'
 import type { PlaceResult } from '../layout/place'
 
@@ -82,22 +82,29 @@ const RULES: Rule[] = [
   },
   {
     name: 'no-collision',
-    weight: 2,
+    weight: 3,
     score: ({ placed }) => {
       const texts = textPlacements(placed.placements)
       let overlap = 0
       let own = 0
+      let worstPair = 0
       for (let i = 0; i < texts.length; i++) {
         own += area(texts[i].rect)
         for (let j = i + 1; j < texts.length; j++) {
-          overlap += overlapArea(texts[i].rect, texts[j].rect)
+          const ov = overlapArea(texts[i].rect, texts[j].rect)
+          overlap += ov
+          const frac = ov / Math.max(1, Math.min(area(texts[i].rect), area(texts[j].rect)))
+          worstPair = Math.max(worstPair, frac)
         }
       }
       if (own === 0) return { score: 1 }
+      // A single badly overlapping pair is disqualifying — the optimizer must
+      // never prefer a colliding layout when a clean one exists.
+      const hardFloor = worstPair > 0.25 ? 0.15 : 1
       return {
-        score: clamp01(1 - (overlap / own) * 3),
+        score: Math.min(hardFloor, clamp01(1 - (overlap / own) * 4)),
         detail:
-          overlap > 1 ? `${((overlap / own) * 100).toFixed(0)}% text overlap` : 'no overlap',
+          overlap > 1 ? `${(worstPair * 100).toFixed(0)}% worst-pair overlap` : 'no overlap',
       }
     },
   },
@@ -138,6 +145,26 @@ const RULES: Rule[] = [
         notes.push('legal too large')
       }
       return { score: clamp01(ok), detail: notes.join('; ') || 'clear hierarchy' }
+    },
+  },
+  {
+    name: 'headline-impact',
+    weight: 1.8,
+    score: ({ surface, placed }) => {
+      const hl = placed.placements.find((p) => p.role === 'headline')?.text
+      if (!hl) return { score: 0.5, detail: 'no headline' }
+      const minDim = Math.min(surface.w, surface.h)
+      const floor = MIN_LEGIBLE_PX[surface.viewingDistance] * 1.6
+      // A headline should read at roughly a tenth of the short edge, never
+      // below a clear step above body text. Below target it feels timid; well
+      // over target is fine and only gently discounted.
+      const target = clamp(minDim * 0.1, floor, minDim * 0.22)
+      const ratio = hl.fontPx / target
+      const s = ratio >= 1 ? clamp01(1 - (ratio - 1) * 0.12) : clamp01(0.4 + ratio * 0.6)
+      return {
+        score: s,
+        detail: `headline ${hl.fontPx}px vs ~${Math.round(target)}px target`,
+      }
     },
   },
   {
